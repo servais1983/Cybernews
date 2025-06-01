@@ -1,67 +1,83 @@
 [
   {
-    "title": "Fraudsters, murderers, students: who the GRU assembled a team of hacker provocateurs from and why it failed",
-    "link": "https://databreaches.net/2025/06/01/fraudsters-murderers-students-who-the-gru-assembled-a-team-of-hacker-provocateurs-from-and-why-it-failed/",
-    "description": "The Insider reports: In September 2024, the FBI published an indictment against a group of hackers working for GRU Unit 29155, the same military unit that became famous for poisoning Skripal in Salisbury. It has long been known that the GRU has hacker units, The Insider was the first to prove thi...",
-    "source": "DataBreaches.net",
-    "logo": "https://www.databreaches.net/favicon.ico",
-    "pub_date": "2025-06-01 18:45:00"
-  },
-  {
-    "title": "Order of Psychologists of Lombardy fined 30,000 € for inadequate data security protection and detection following ransomware attack",
-    "link": "https://databreaches.net/2025/06/01/order-of-psychologists-of-lombardy-fined-30000-e-for-inadequate-data-security-protection-and-detection-following-ransomware-attack/",
-    "description": "The Privacy Guarantor has fined the Order of Psychologists of the Lombardy Region [Ordine degli psicologi della Lombardia] for 30 thousand euros for not having adopted adequate technical and organizational measures to guarantee data security. The Guarantor intervened following some complaints and...",
-    "source": "DataBreaches.net",
-    "logo": "https://www.databreaches.net/favicon.ico",
-    "pub_date": "2025-06-01 18:43:22"
-  },
-  {
-    "title": "chaitak-gorai Blogbook GET Parameter search.php denial of service",
-    "link": "https://github.com/rllvusgnzm98/Report/blob/main/blogbook/BlogBook%20search.php%20search%20Parameter%20SQL%20Injection.md",
+    "title": "CrowdStrike Named a Frost Radar&trade; Leader in Cloud and Application Runtime Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-frost-radar-leader-in-cloud-application-runtime-security/",
     "description": "",
-    "source": "CyberAlerts.io",
-    "logo": "https://cyberalerts.io/favicon.ico",
-    "pub_date": "2025-06-01 17:40:14"
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
   },
   {
-    "title": "chaitak-gorai Blogbook GET Parameter view_all_posts.php sql injection",
-    "link": "https://github.com/rllvusgnzm98/Report/blob/main/blogbook/BlogBook%20posts.php%20delete_post%20delete%20Parameter%20SQL%20Injection.md",
+    "title": "CrowdStrike Elevates XIoT Security with AI-Powered Insights",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-elevates-xiot-security-ai-powered-insights/",
     "description": "",
-    "source": "CyberAlerts.io",
-    "logo": "https://cyberalerts.io/favicon.ico",
-    "pub_date": "2025-06-01 17:40:14"
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
   },
   {
-    "title": "Plenty Of LEDs And Useful Too: The 2025 DORS/CLUC Badge",
-    "link": "https://hackaday.com/2025/06/01/plenty-of-leds-and-useful-too-the-2025-dors-cluc-badge/",
-    "description": "It’s always nice to see new developments in the world of electronic badges, and while there are events and badge teams pushing the technological envelope there’s still plenty of scope …read more",
-    "source": "Hackaday",
-    "logo": "https://hackaday.com/favicon.ico",
-    "pub_date": "2025-06-01 17:00:00"
-  },
-  {
-    "title": "chaitak-gorai Blogbook GET Parameter edit_post.php sql injection",
-    "link": "https://github.com/rllvusgnzm98/Report/blob/main/blogbook/BlogBook%20posts.php%20edit_post%20p_id%20Parameter%20SQL%20Injection.md",
+    "title": "CrowdStrike Named a Customers&rsquo; Choice in 2025 Gartner&reg; Voice of the Customer for Endpoint Protection Platforms Report",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-customers-choice-2025-gartner-voice-of-customer-epp-report/",
     "description": "",
-    "source": "CyberAlerts.io",
-    "logo": "https://cyberalerts.io/favicon.ico",
-    "pub_date": "2025-06-01 15:40:21"
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
   },
   {
-    "title": "YAML-LibYAML prior to 0.903.0 for Perl uses 2-args open, allowing existing files to be modified",
-    "link": "https://github.com/ingydotnet/yaml-libyaml-pm/pull/122",
+    "title": "CrowdStrike Leads in GigaOm Radar for Identity Threat Detection and Response",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2025-gigaom-itdr-radar-report/",
     "description": "",
-    "source": "CyberAlerts.io",
-    "logo": "https://cyberalerts.io/favicon.ico",
-    "pub_date": "2025-06-01 14:40:14"
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
   },
   {
-    "title": "Making The Codec Communicator From Metal Gear Solid",
-    "link": "https://hackaday.com/2025/06/01/making-the-codec-communicator-from-metal-gear-solid/",
-    "description": "[3DSage] likes building replicas of hardware from movies and video games, often with a functional twist. His latest build aimed to bring the Codec from Metal Gear Solid to life. …read more",
-    "source": "Hackaday",
-    "logo": "https://hackaday.com/favicon.ico",
-    "pub_date": "2025-06-01 14:00:00"
+    "title": "CrowdStrike Collaborates with U.S. Department of Justice on DanaBot Takedown",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-partners-with-doj-disrupt-danabot-malware-operators/",
+    "description": "",
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
+  },
+  {
+    "title": "CrowdStrike 2025 Latin America Threat Landscape Report: A Deep Dive into an Evolving Region",
+    "link": "https://www.crowdstrike.com/en-us/blog/2025-latam-threat-landscape-report-deep-dive/",
+    "description": "",
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
+  },
+  {
+    "title": "CrowdStrike Falcon for Mobile Gains Android Enterprise and Zero Trust Integrations",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-strengthens-mobile-security-with-new-integrations/",
+    "description": "",
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
+  },
+  {
+    "title": "May 2025 Patch Tuesday: Five Zero-Days and Five Critical Vulnerabilities Among 72 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-may-2025/",
+    "description": "",
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
+  },
+  {
+    "title": "SMB Security Survey Reveals High Awareness, Lagging Protection",
+    "link": "https://www.crowdstrike.com/en-us/blog/smb-security-survey-reveals-high-awareness-lagging-protection/",
+    "description": "",
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
+  },
+  {
+    "title": "CrowdStrike Falcon Cloud Security Extends Unified Protection to VMware Environments",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-unified-protection-to-vmware-environments/",
+    "description": "",
+    "source": "CrowdStrike Blog",
+    "logo": "https://www.crowdstrike.com/favicon.ico",
+    "pub_date": "2025-06-01 22:01:05"
   },
   {
     "title": "Two flaws in vBulletin forum software are under attack",
@@ -72,20 +88,12 @@
     "pub_date": "2025-06-01 13:50:33"
   },
   {
-    "title": "chaitak-gorai Blogbook GET Parameter post.php sql injection",
-    "link": "https://github.com/rllvusgnzm98/Report/blob/main/blogbook/BlogBook%20post.php%20p_id%20Parameter%20SQL%20Injection.md",
-    "description": "",
-    "source": "CyberAlerts.io",
-    "logo": "https://cyberalerts.io/favicon.ico",
-    "pub_date": "2025-06-01 13:40:17"
-  },
-  {
-    "title": "Lower Merion School District says a data breach was caused by a computer glitch",
-    "link": "https://databreaches.net/2025/06/01/lower-merion-school-district-says-a-data-breach-was-caused-by-a-computer-glitch/",
-    "description": "DataBreaches cannot read “Lower Merion School District” without recalling the “Webcamgate” scandal of 2010, when the district was discovered monitoring students remotely in their bedrooms on district-issued MacBooks. At the time, they initially denied any misuse of remote access that was part of ...",
-    "source": "DataBreaches.net",
-    "logo": "https://www.databreaches.net/favicon.ico",
-    "pub_date": "2025-06-01 13:01:48"
+    "title": "Policy Entropy, Learning, and Alignment (Or Maybe Your LLM Needs Therapy)",
+    "link": "https://www.alignmentforum.org/posts/C4tvfHn2DfxyYYwaL/policy-entropy-learning-and-alignment-or-maybe-your-llm",
+    "description": "Published on May 31, 2025 10:09 PM GMT Epistemic Status: Exploratory. I'm new to AI alignment research but have background in math and read psychotherapy texts extensively while spending two years as a ghost-writer. Seeking feedback to refine these connections. Tl;dr: I suggest therapeutic techni...",
+    "source": "AI Alignment Forum",
+    "logo": "https://www.alignmentforum.org/favicon.ico",
+    "pub_date": "2025-06-01 12:24:08"
   },
   {
     "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 47",
@@ -112,28 +120,20 @@
     "pub_date": "2025-06-01 11:24:52"
   },
   {
-    "title": "Adaptive Optics Take Clearest Pictures of the Sun Yet",
-    "link": "https://hackaday.com/2025/06/01/adaptive-optics-take-clearest-pictures-of-the-sun-yet/",
-    "description": "It’s sometimes easy to forget that the light in the sky is an actual star. With how reliable it is and how busy we tend to be as humans, we …read more",
-    "source": "Hackaday",
-    "logo": "https://hackaday.com/favicon.ico",
+    "title": "This palm recognition smart lock doubles as a video doorbell (and has no monthly fees)",
+    "link": "https://www.zdnet.com/article/this-palm-recognition-smart-lock-doubles-as-a-video-doorbell-and-has-no-monthly-fees/",
+    "description": "The Eufy Familock S3 Max is among the best smart locks I've tested, thanks to a standout feature designed with families in mind.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-06-01 11:00:14"
+  },
+  {
+    "title": "When your LLM calls the cops: Claude 4’s whistle-blow and the new agentic AI risk stack",
+    "link": "https://venturebeat.com/ai/when-your-llm-calls-the-cops-claude-4s-whistle-blow-and-the-new-agentic-ai-risk-stack/",
+    "description": "Claude 4’s “whistle-blow” surprise shows why agentic AI risk lives in prompts and tool access, not benchmarks. Learn the 6 controls every enterprise must adopt.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
     "pub_date": "2025-06-01 11:00:00"
-  },
-  {
-    "title": "After $1 Million Ransom Demand, Virgin Islands Lottery Restores Operations Without Paying Hackers",
-    "link": "https://databreaches.net/2025/06/01/after-1-million-ransom-demand-virgin-islands-lottery-restores-operations-without-paying-hackers/",
-    "description": "Nelcia Charlemagne reports: Virgin Islands Lottery’s executive director, Raymond Williams, says the entity is now “90 percent back [to] functionality” after a cybersecurity incident that halted operations across the territory. The March ransomware attack compromised Lottery’s entire network. Mr. ...",
-    "source": "DataBreaches.net",
-    "logo": "https://www.databreaches.net/favicon.ico",
-    "pub_date": "2025-06-01 10:37:52"
-  },
-  {
-    "title": "Junior Defence Contractor Arrested For Leaking Indian Naval Secrets To Suspected Pakistani Spies",
-    "link": "https://databreaches.net/2025/06/01/junior-defence-contractor-arrested-for-leaking-indian-naval-secrets-to-suspected-pakistani-spies/",
-    "description": "Here’s yet another insider threat report from a defense agency to end the week. This one is from India. NewsMobile reports: A 27-year-old junior defence contractor has been arrested for allegedly leaking restricted information on Indian Navy warships and submarines to suspected Pakistani intellig...",
-    "source": "DataBreaches.net",
-    "logo": "https://www.databreaches.net/favicon.ico",
-    "pub_date": "2025-06-01 10:32:14"
   },
   {
     "title": "Près de 203 000 données client d’un concessionnaire du Nord de la France mises aux enchères sur le darknet",
@@ -152,14 +152,6 @@
     "pub_date": "2025-06-01 09:29:05"
   },
   {
-    "title": "Addressing Our ‘Age of Insecurity’ — in Cyber Too",
-    "link": "https://securityboulevard.com/2025/06/addressing-our-age-of-insecurity-in-cyber-too/?utm_source=rss&utm_medium=rss&utm_campaign=addressing-our-age-of-insecurity-in-cyber-too",
-    "description": "Recent cyber attacks have given a new urgency to business resiliency in the public and private sectors. Let’s explore the problem and some workable answers. The post Addressing Our ‘Age of Insecurity’ — in Cyber Too appeared first on Security Boulevard .",
-    "source": "Security Boulevard",
-    "logo": "https://securityboulevard.com/favicon.ico",
-    "pub_date": "2025-06-01 09:26:00"
-  },
-  {
     "title": "YARA 4.5.3 Release, (Sun, Jun 1st)",
     "link": "https://isc.sans.edu/diary/rss/31976",
     "description": "YARA 4.5.3 was released with 5 bugfixes.",
@@ -168,60 +160,20 @@
     "pub_date": "2025-06-01 08:01:39"
   },
   {
-    "title": "Week in review: NIST proposes new vulnerabilities metric, flaws in NASA’s open source software",
-    "link": "https://www.helpnetsecurity.com/2025/06/01/week-in-review-nist-proposes-new-vulnerabilities-metric-flaws-in-nasas-open-source-software/",
-    "description": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Vulnerabilities found in NASA’s open source software Vulnerabilities in open source software developed and used in-house by NASA could be exploited to breach their systems, claims Leon Juranić, secur...",
-    "source": "Helpnet Security",
-    "logo": "https://www.helpnetsecurity.com/favicon.ico",
-    "pub_date": "2025-06-01 08:00:41"
+    "title": "The future of engineering belongs to those who build with AI, not without it",
+    "link": "https://venturebeat.com/ai/the-future-of-engineering-belongs-to-those-who-build-with-ai-not-without-it/",
+    "description": "As we look ahead, the relationship between engineers and AI systems will likely evolve from tool and user to something more symbiotic.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-31 19:05:00"
   },
   {
-    "title": "Portal 2 Becomes An Impressively Capable Web Server",
-    "link": "https://hackaday.com/2025/06/01/portal-2-becomes-an-impressively-capable-web-server/",
-    "description": "Portal 2 is mostly known as the successful sequel to Valve’s weird physics platformer, Portal. It’s not really known for being a webserver. That might change, though, given the hard work of …read more",
-    "source": "Hackaday",
-    "logo": "https://hackaday.com/favicon.ico",
-    "pub_date": "2025-06-01 08:00:00"
-  },
-  {
-    "title": "Disarming a Nuke… Twice",
-    "link": "https://hackaday.com/2025/05/31/disarming-a-nuke-twice/",
-    "description": "Since the tail end of World War II, humanity has struggled to deal with its newfound ability to harness the tremendous energy in the nucleus of the atom. Of course …read more",
-    "source": "Hackaday",
-    "logo": "https://hackaday.com/favicon.ico",
-    "pub_date": "2025-06-01 05:00:00"
-  },
-  {
-    "title": "How Secrets Scanning is Evolving for Better Security",
-    "link": "https://securityboulevard.com/2025/05/how-secrets-scanning-is-evolving-for-better-security/?utm_source=rss&utm_medium=rss&utm_campaign=how-secrets-scanning-is-evolving-for-better-security",
-    "description": "Why is Secrets Scanning Important in Cybersecurity? Secrets scanning is paramount in cybersecurity. It involves identifying and mitigating risks associated with sensitive data like passwords, tokens, or keys, collectively known as “secrets”. These secrets are nothing less than the passports of No...",
-    "source": "Security Boulevard",
-    "logo": "https://securityboulevard.com/favicon.ico",
-    "pub_date": "2025-05-31 21:00:00"
-  },
-  {
-    "title": "Is Innovation Driving Better NHI Management?",
-    "link": "https://securityboulevard.com/2025/05/is-innovation-driving-better-nhi-management/?utm_source=rss&utm_medium=rss&utm_campaign=is-innovation-driving-better-nhi-management",
-    "description": "How is Innovation Paving the Way for Improved NHI Management? Innovation stands as the lighthouse amidst the tumultuous sea of evolving threats. But how does this innovation affect Non-Human Identities (NHIs) management, a cornerstone of modern cybersecurity practices? Secure machine identity man...",
-    "source": "Security Boulevard",
-    "logo": "https://securityboulevard.com/favicon.ico",
-    "pub_date": "2025-05-31 21:00:00"
-  },
-  {
-    "title": "Scalable Strategies for Managing Cloud Machine Identities",
-    "link": "https://securityboulevard.com/2025/05/scalable-strategies-for-managing-cloud-machine-identities/?utm_source=rss&utm_medium=rss&utm_campaign=scalable-strategies-for-managing-cloud-machine-identities",
-    "description": "Are We Doing Enough to Safeguard Our Machine Identities? Securing human identities and their access permissions has been a focal point for most organizations. But, have we addressed a largely overlooked and equally crucial aspect – the management of Non-Human Identities (NHIs)? Increasingly rely ...",
-    "source": "Security Boulevard",
-    "logo": "https://securityboulevard.com/favicon.ico",
-    "pub_date": "2025-05-31 21:00:00"
-  },
-  {
-    "title": "Ensuring Safety in Your Secrets Vaulting Techniques",
-    "link": "https://securityboulevard.com/2025/05/ensuring-safety-in-your-secrets-vaulting-techniques/?utm_source=rss&utm_medium=rss&utm_campaign=ensuring-safety-in-your-secrets-vaulting-techniques",
-    "description": "Is Your Organization Unlocking Optimum Secrets Vaulting Possibilities? A particularly striking component is Non-Human Identities (NHIs). They have become a vital aspect of many businesses’ strategies, especially those that operate. This article magnifies the vital necessity to adopt safe techniqu...",
-    "source": "Security Boulevard",
-    "logo": "https://securityboulevard.com/favicon.ico",
-    "pub_date": "2025-05-31 21:00:00"
+    "title": "The best approaches for mitigating \"the intelligence curse\" (or gradual disempowerment); my quick guesses at the best object-level interventions",
+    "link": "https://www.alignmentforum.org/posts/BXW2bqxmYbLuBrm7E/the-best-approaches-for-mitigating-the-intelligence-curse-or",
+    "description": "Published on May 31, 2025 6:20 PM GMT There have recently been various proposals for mitigations to \"the intelligence curse\" or \"gradual disempowerment\"—concerns that most humans would end up disempowered (or even dying) because their labor is no longer valuable. I'm currently skeptical that the ...",
+    "source": "AI Alignment Forum",
+    "logo": "https://www.alignmentforum.org/favicon.ico",
+    "pub_date": "2025-05-31 18:20:43"
   },
   {
     "title": "Cyberattaque chez Victoria’s Secret : les dessous d’un incident qui ne fait pas dans la dentelle !",
@@ -248,6 +200,22 @@
     "pub_date": "2025-05-31 15:35:13"
   },
   {
+    "title": "Hacking in progress : menace silencieuse sur les cabinets d’avocats",
+    "link": "https://www.zataz.com/menace-silencieuse-sur-les-cabinets-davocats/",
+    "description": "Une campagne sophistiquée de phishing vocal cible principalement les cabinets d’avocats pour exfiltrer des données sensibles et exiger des rançons....",
+    "source": "ZATAZ Magazine",
+    "logo": "https://www.zataz.com/favicon.ico",
+    "pub_date": "2025-05-31 15:21:23"
+  },
+  {
+    "title": "YouTube-Tools : l’outil qui brise l’anonymat des internautes",
+    "link": "https://www.zataz.com/youtube-tools-loutil-qui-brise-lanonymat-des-internautes/",
+    "description": "Une intelligence artificielle baptisée YouTube-Tools prétend pouvoir dresser le profil complet d’un utilisateur à partir de ses commentaires sur YouTube. Un outil controversé aux frontières de la légalité....",
+    "source": "ZATAZ Magazine",
+    "logo": "https://www.zataz.com/favicon.ico",
+    "pub_date": "2025-05-31 15:08:09"
+  },
+  {
     "title": "ESET aux côtés du FBI et d’Europol participe à la perturbation du réseau cybercriminel Danabot",
     "link": "https://www.undernews.fr/hacking-hacktivisme/eset-aux-cotes-du-fbi-et-deuropol-participe-a-la-perturbation-du-reseau-cybercriminel-danabot.html",
     "description": "ESET a contribué à une opération majeure visant à perturber l’infrastructure du célèbre voleur d’informations Danabot, menée par le ministère américain de la Justice, le FBI et le service d’enquête criminelle de la défense du ministère américain de la Défense. Ces agences américaines ont collabor...",
@@ -262,6 +230,30 @@
     "source": "Bleeping Computer",
     "logo": "https://www.bleepingcomputer.com/favicon.ico",
     "pub_date": "2025-05-31 14:09:19"
+  },
+  {
+    "title": "Micro Center nerd store fills the Fry’s vacuum with its return to Silicon Valley",
+    "link": "https://venturebeat.com/games/micro-center-nerd-store-fills-the-frys-vacuum-with-its-return-to-silicon-valley/",
+    "description": "Micro Center, an electronics retailer, has opened a store in Silicon Valley in California And so the nerd kingdom has returned.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-31 13:30:00"
+  },
+  {
+    "title": "This video doorbell camera has just as many features as my Ring - and no subscription required",
+    "link": "https://www.zdnet.com/article/this-video-doorbell-camera-has-just-as-many-features-are-my-ring-and-no-subscription-required/",
+    "description": "The Eufy Security E340 dual-camera video doorbell has the features to protect your deliveries from porch pirates.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-31 13:00:00"
+  },
+  {
+    "title": "Mysterious leaker GangExposed outs Conti kingpins in massive ransomware data dump",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/31/gangexposed_coni_ransomware_leaks/",
+    "description": "'It's a high-stakes intelligence war' he told El Reg exclusive A mystery whistleblower calling himself GangExposed has exposed key figures behind the Conti and Trickbot ransomware crews, publishing a trove of internal files and naming names.…",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-31 10:23:08"
   },
   {
     "title": "New Linux Flaws Allow Password Hash Theft via Core Dumps in Ubuntu, RHEL, Fedora",
@@ -288,6 +280,22 @@
     "pub_date": "2025-05-31 05:34:31"
   },
   {
+    "title": "QwenLong-L1 solves long-context reasoning challenge that stumps current LLMs",
+    "link": "https://venturebeat.com/ai/qwenlong-l1-solves-long-context-reasoning-challenge-that-stumps-current-llms/",
+    "description": "Alibaba's QwenLong-L1 helps LLMs deeply understand long documents, unlocking advanced reasoning for practical enterprise applications.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-30 23:39:01"
+  },
+  {
+    "title": "ElevenLabs debuts Conversational AI 2.0 voice assistants that understand when to pause, speak, and take turns talking",
+    "link": "https://venturebeat.com/ai/elevenlabs-debuts-conversational-ai-2-0-voice-assistants-that-understand-when-to-pause-speak-and-take-turns-talking/",
+    "description": "With Conversational AI 2.0, ElevenLabs aims to provide tools and infrastructure for truly intelligent, context-aware enterprise voice agents.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-30 22:00:52"
+  },
+  {
     "title": "'Earth Lamia' Exploits Known SQL, RCE Bugs Across Asia",
     "link": "https://www.darkreading.com/threat-intelligence/earth-lamia-exploits-sql-rce-bugs-asia",
     "description": "A \"highly active\" Chinese threat group is taking proverbial candy from babies, exploiting known bugs in exposed servers to steal data from organizations in sensitive sectors.",
@@ -304,12 +312,44 @@
     "pub_date": "2025-05-30 20:02:02"
   },
   {
+    "title": "Spy-catcher saw “stupid” tech errors others made. FBI says he then made his own.",
+    "link": "https://arstechnica.com/security/2025/05/us-insider-threat-cybersecurity-worker-arrested-as-insider-threat/",
+    "description": "The wrong way to get out of Trump's America.",
+    "source": "Ars Technica Security",
+    "logo": "https://arstechnica.com/favicon.ico",
+    "pub_date": "2025-05-30 19:55:21"
+  },
+  {
     "title": "Hackers are exploiting critical flaw in vBulletin forum software",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-flaw-in-vbulletin-forum-software/",
     "description": "Two critical vulnerabilities affecting the open-source forum software vBulletin have been discovered, with one confirmed to be actively exploited in the wild. [...]",
     "source": "Bleeping Computer",
     "logo": "https://www.bleepingcomputer.com/favicon.ico",
     "pub_date": "2025-05-30 19:26:06"
+  },
+  {
+    "title": "ConnectWise customers get mysterious warning about 'sophisticated' nation-state hack",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/connectwise_compromised_by_sophisticated_government/",
+    "description": "Pen tester on ScreenConnect bug: This one ‘terrifies’ me ConnectWise has brought in the big guns to investigate a \"sophisticated nation state actor\" that broke into its IT environment and then breached some of its customers.…",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 19:01:49"
+  },
+  {
+    "title": "My picks for the best robot vacuums for pet hair of 2025: Roomba, Eufy, Ecovacs, and more",
+    "link": "https://www.zdnet.com/article/the-best-robot-vacuum-for-pet-hair/",
+    "description": "I tested the best robot vacuums for pet hair from iRobot, Roborock, and more to effortlessly keep your floors clean without the old upright vacuum.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-30 18:48:00"
+  },
+  {
+    "title": "Best robot mowers of 2025: I tested the best models on the market, and these are my favorites",
+    "link": "https://www.zdnet.com/article/best-robot-mower/",
+    "description": "We went hands-on with the best robot mowers that can cut your lawn regularly, so you can kick back and relax this spring.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-30 18:47:00"
   },
   {
     "title": "FBI Warns of Filipino Tech Company Running Sprawling Crypto Scams",
@@ -328,52 +368,52 @@
     "pub_date": "2025-05-30 18:41:24"
   },
   {
-    "title": "Deploy Amazon SageMaker Projects with Terraform Cloud",
-    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-amazon-sagemaker-projects-with-terraform-cloud/",
-    "description": "In this post you define, deploy, and provision a SageMaker Project custom template purely in Terraform. With no dependencies on other IaC tools, you can now enable SageMaker Projects strictly within your Terraform Enterprise infrastructure.",
-    "source": "AWS AI Blog",
-    "logo": "https://aws.amazon.com/favicon.ico",
-    "pub_date": "2025-05-30 17:27:16"
+    "title": "Which LLM should you use? Token Monster automatically combines multiple models and tools for you",
+    "link": "https://venturebeat.com/ai/which-llm-should-you-use-token-monster-automatically-combines-multiple-models-and-tools-for-you/",
+    "description": "This architecture lets Token Monster tap into a range of models from different providers without having to build separate integrations for each one.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-30 18:35:57"
   },
   {
-    "title": "DeepSeek’s latest AI model a ‘big step backwards’ for free speech",
-    "link": "https://www.artificialintelligence-news.com/news/deepseek-latest-ai-model-big-step-backwards-free-speech/",
-    "description": "DeepSeek’s latest AI model, R1 0528, has raised eyebrows for a further regression on free speech and what users can discuss. “A big step backwards for free speech,” is how one prominent AI researcher summed it up AI researcher and popular online commentator ‘xlr8harder’ put the model through its ...",
-    "source": "AI News",
-    "logo": "https://www.artificialintelligence-news.com/favicon.ico",
-    "pub_date": "2025-05-30 17:24:00"
+    "title": "This new YouTube Shorts feature lets you circle to search videos more easily",
+    "link": "https://www.zdnet.com/article/this-new-youtube-shorts-feature-lets-you-circle-to-search-videos-more-easily/",
+    "description": "Now in beta, the new feature allows you to pull up detailed information in a video without leaving the YouTube app.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-30 18:32:00"
   },
   {
-    "title": "How ZURU improved the accuracy of floor plan generation by 109% using Amazon Bedrock and Amazon SageMaker",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-zuru-improved-the-accuracy-of-floor-plan-generation-by-109-using-amazon-bedrock-and-amazon-sagemaker/",
-    "description": "ZURU collaborated with AWS Generative AI Innovation Center and AWS Professional Services to implement a more accurate text-to-floor plan generator using generative AI. In this post, we show you why a solution using a large language model (LLM) was chosen. We explore how model selection, prompt en...",
-    "source": "AWS AI Blog",
-    "logo": "https://aws.amazon.com/favicon.ico",
-    "pub_date": "2025-05-30 17:18:24"
+    "title": "Feds arrest DoD techie, claim he dumped top secret files in park for foreign spies to find",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/feds_nab_dod_techie_dumping/",
+    "description": "28-year-old alleged to have made multiple drops to folks who turned out to be undercover FBI agents A Defense Intelligence Agency (DIA) IT specialist is scheduled to appear in court today after being caught by the FBI trying to surreptitiously drop top secret information to a foreign government i...",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 18:29:11"
   },
   {
-    "title": "Going beyond AI assistants: Examples from Amazon.com reinventing industries with generative AI",
-    "link": "https://aws.amazon.com/blogs/machine-learning/going-beyond-ai-assistants-examples-from-amazon-com-reinventing-industries-with-generative-ai/",
-    "description": "Non-conversational applications offer unique advantages such as higher latency tolerance, batch processing, and caching, but their autonomous nature requires stronger guardrails and exhaustive quality assurance compared to conversational applications, which benefit from real-time user feedback an...",
-    "source": "AWS AI Blog",
-    "logo": "https://aws.amazon.com/favicon.ico",
-    "pub_date": "2025-05-30 17:10:35"
+    "title": "US medical org pays $50M+ to settle case after crims raided data and threatened to swat cancer patients",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/fred_hutch_cancer_center_commits/",
+    "description": "Cash splashed on damages, infrastructure improvements, and fraud monitoring A Seattle cancer facility has agreed to fork out around $52.5 million as part of a class action settlement linked to a Thanksgiving 2023 cyberattack where criminals directly threatened cancer patients with swat attacks.…",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 17:35:07"
   },
   {
-    "title": "Architect a mature generative AI foundation on AWS",
-    "link": "https://aws.amazon.com/blogs/machine-learning/architect-a-mature-generative-ai-foundation-on-aws/",
-    "description": "In this post, we give an overview of a well-established generative AI foundation, dive into its components, and present an end-to-end perspective. We look at different operating models and explore how such a foundation can operate within those boundaries. Lastly, we present a maturity model that ...",
-    "source": "AWS AI Blog",
-    "logo": "https://aws.amazon.com/favicon.ico",
-    "pub_date": "2025-05-30 17:02:37"
+    "title": "How practical AI prevailed over hype at Red Hat Summit 2025",
+    "link": "https://www.zdnet.com/article/how-practical-ai-prevailed-over-hype-at-red-hat-summit-2025/",
+    "description": "At Red Hat Summit and Ansible Fest 2025, discussions included open source, automation, security, and, of course, AI - but in a refreshing way.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-30 17:31:00"
   },
   {
-    "title": "Attackers Exploit Microsoft Entra Billing Roles to Escalate Privileges in Organizational Environments",
-    "link": "https://gbhackers.com/attackers-exploit-microsoft-entra-billing-roles/",
-    "description": "A startling discovery by BeyondTrust researchers has unveiled a critical vulnerability in Microsoft Entra ID and Azure environments, where attackers can exploit lesser-known billing roles to escalate privileges within organizational tenants. This sophisticated attack vector leverages the ability ...",
-    "source": "GBHackers On Security",
-    "logo": "https://gbhackers.com/favicon.ico",
-    "pub_date": "2025-05-30 16:47:59"
+    "title": "Microsoft's Copilot for Gaming arrives in beta - how to try it on your phone",
+    "link": "https://www.zdnet.com/article/microsofts-copilot-for-gaming-arrives-in-beta-how-to-try-it-on-your-phone/",
+    "description": "Stuck in a game on Xbox? Copilot is here to help.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-30 17:02:07"
   },
   {
     "title": "Police takes down AVCheck site used by cybercriminals to scan malware",
@@ -384,6 +424,14 @@
     "pub_date": "2025-05-30 16:46:02"
   },
   {
+    "title": "Meta – yep, Facebook Meta – is now a defense contractor",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/meta_is_now_a_defense/",
+    "description": "Giving people the power to build community and bring the world closer together so we can shoot them Meta has partnered with Anduril Industries to build augmented and virtual reality devices for the military, eight years after it fired the defense firm's founder, Palmer Luckey.…",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 16:32:11"
+  },
+  {
     "title": "Germany doxxes Conti ransomware and TrickBot ring leader",
     "link": "https://www.bleepingcomputer.com/news/security/germany-doxxes-conti-ransomware-and-trickbot-ring-leader/",
     "description": "The Federal Criminal Police Office of Germany (Bundeskriminalamt or BKA) claims that Stern, the leader of the Trickbot and Conti cybercrime gangs, is a 36-year-old Russian named Vitaly Nikolaevich Kovalev. [...]",
@@ -392,44 +440,36 @@
     "pub_date": "2025-05-30 15:57:26"
   },
   {
-    "title": "Using Amazon OpenSearch ML connector APIs",
-    "link": "https://aws.amazon.com/blogs/machine-learning/using-amazon-opensearch-ml-connector-apis/",
-    "description": "OpenSearch offers a wide range of third-party machine learning (ML) connectors to support this augmentation. This post highlights two of these third-party ML connectors. The first connector we demonstrate is the Amazon Comprehend connector. In this post, we show you how to use this connector to i...",
-    "source": "AWS AI Blog",
-    "logo": "https://aws.amazon.com/favicon.ico",
-    "pub_date": "2025-05-30 15:57:21"
+    "title": "Quand la CIA jouait à la guerre des étoiles",
+    "link": "https://www.zataz.com/quand-la-cia-jouait-a-la-guerre-des-etoiles/",
+    "description": "Des sites de fans, des pages sur la musique brésilienne ou les sports extrêmes : derrière ces apparences anodines se cachaient des outils secrets de communication pour les espions de la CIA....",
+    "source": "ZATAZ Magazine",
+    "logo": "https://www.zataz.com/favicon.ico",
+    "pub_date": "2025-05-30 15:41:41"
   },
   {
-    "title": "Threat Actors Exploit Google Apps Script to Host Phishing Sites",
-    "link": "https://gbhackers.com/threat-actors-exploit-google-apps-script/",
-    "description": "The Cofense Phishing Defense Center has uncovered a highly strategic phishing campaign that leverages Google Apps Script a legitimate development platform within Google’s ecosystem to host deceptive phishing pages. This attack, masquerading as an invoice email, exploits the inherent trust users p...",
-    "source": "GBHackers On Security",
-    "logo": "https://gbhackers.com/favicon.ico",
-    "pub_date": "2025-05-30 15:43:00"
+    "title": "Trafic d’identités et cyber fuites : l’autre visage de l’économie numérique",
+    "link": "https://www.zataz.com/trafic-didentites-et-cyber-fuites-lautre-visage-de-leconomie-numerique/",
+    "description": "Une filière clandestine de revente d’identités numériques a été démantelée à Qingdao. En parallèle, Adidas est victime d’une fuite de données causée par un prestataire externe. Deux affaires, un même enjeu : la cybersécurité....",
+    "source": "ZATAZ Magazine",
+    "logo": "https://www.zataz.com/favicon.ico",
+    "pub_date": "2025-05-30 15:21:30"
   },
   {
-    "title": "Dadsec Hacker Group Uses Tycoon2FA Infrastructure to Steal Office365 Credentials",
-    "link": "https://gbhackers.com/dadsec-hacker-group-uses-tycoon2fa-infrastructure/",
-    "description": "Cybersecurity researchers from Trustwave’s Threat Intelligence Team have uncovered a large-scale phishing campaign orchestrated by the notorious hacker group Storm-1575, also known as “Dadsec.” Since September 2023, this group has been leveraging a Phishing-as-a-Service (PhaaS) platform called Ty...",
-    "source": "GBHackers On Security",
-    "logo": "https://gbhackers.com/favicon.ico",
-    "pub_date": "2025-05-30 15:17:00"
+    "title": "AI doesn't have to be a job-killer. How some businesses are using it to enhance, not replace",
+    "link": "https://www.zdnet.com/article/ai-doesnt-have-to-be-a-job-killer-how-some-businesses-are-using-it-to-enhance-not-replace/",
+    "description": "Despite popular rhetoric, humans are as in demand as ever.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-30 15:04:00"
   },
   {
-    "title": "Firebase, Google Apps Script Abused in Fresh Phishing Campaigns",
-    "link": "https://www.securityweek.com/firebase-google-apps-script-abused-in-fresh-phishing-campaigns/",
-    "description": "Security researchers flag two phishing campaigns abusing Firebase and Google Apps Script to host malware and fake login pages. The post Firebase, Google Apps Script Abused in Fresh Phishing Campaigns appeared first on SecurityWeek .",
-    "source": "SecurityWeek",
-    "logo": "https://www.securityweek.com/favicon.ico",
-    "pub_date": "2025-05-30 14:56:09"
-  },
-  {
-    "title": "Beware: Weaponized AI Tool Installers Infect Devices with Ransomware",
-    "link": "https://gbhackers.com/weaponized-ai-tool-installers-infect-devices/",
-    "description": "Cisco Talos has uncovered a series of malicious threats masquerading as legitimate AI tool installers, targeting unsuspecting users and businesses across multiple industries. These threats, including the CyberLock and Lucky_Gh0$t ransomware families, along with a newly identified destructive malw...",
-    "source": "GBHackers On Security",
-    "logo": "https://gbhackers.com/favicon.ico",
-    "pub_date": "2025-05-30 14:52:00"
+    "title": "Sustaining Digital Certificate Security - Upcoming Changes to the Chrome Root Store",
+    "link": "http://security.googleblog.com/2025/05/sustaining-digital-certificate-security-chrome-root-store-changes.html",
+    "description": "Posted by Chrome Root Program, Chrome Security Team Note: Google Chrome communicated its removal of default trust of Chunghwa Telecom and Netlock in the public forum on May 30, 2025. The Chrome Root Program Policy states that Certification Authority (CA) certificates included in the Chrome Root S...",
+    "source": "Google Security Blog",
+    "logo": "https://security.googleblog.com/favicon.ico",
+    "pub_date": "2025-05-30 14:59:00"
   },
   {
     "title": "Is T-Mobile secretly recording your phone's screen? How to check and turn it off",
@@ -448,28 +488,20 @@
     "pub_date": "2025-05-30 14:45:00"
   },
   {
-    "title": "US Sanctions Philippine Company for Supporting Crypto Scams",
-    "link": "https://www.securityweek.com/us-sanctions-philippine-company-for-supporting-crypto-scams/",
-    "description": "The US Treasury Department US has slapped sanctions on Funnull Technology for providing support to cryptocurrency investment scams. The post US Sanctions Philippine Company for Supporting Crypto Scams appeared first on SecurityWeek .",
-    "source": "SecurityWeek",
-    "logo": "https://www.securityweek.com/favicon.ico",
-    "pub_date": "2025-05-30 14:42:44"
-  },
-  {
-    "title": "Pure Crypter Uses Multiple Evasion Methods to Bypass Windows 11 24H2 Security Features",
-    "link": "https://gbhackers.com/pure-crypter-uses-multiple-evasion-methods/",
-    "description": "Pure Crypter, a well-known malware-as-a-service (MaaS) loader, has been recognized as a crucial tool for threat actors targeting Windows-based systems in a thorough technical research carried out by eSentire’s Threat Response Unit (TRU) during 2024 and 2025. This loader, favored for deploying inf...",
-    "source": "GBHackers On Security",
-    "logo": "https://gbhackers.com/favicon.ico",
-    "pub_date": "2025-05-30 14:25:00"
-  },
-  {
     "title": "New EDDIESTEALER Malware Bypasses Chrome's App-Bound Encryption to Steal Browser Data",
     "link": "https://thehackernews.com/2025/05/eddiestealer-malware-uses-clickfix.html",
     "description": "A new malware campaign is distributing a novel Rust-based information stealer dubbed EDDIESTEALER using the popular ClickFix social engineering tactic initiated via fake CAPTCHA verification pages. \"This campaign leverages deceptive CAPTCHA verification pages that trick users into executing a mal...",
     "source": "The Hacker News",
     "logo": "https://thehackernews.com/favicon.ico",
     "pub_date": "2025-05-30 14:14:00"
+  },
+  {
+    "title": "Your Gmail inbox now includes Gemini summaries by default - how to stop them",
+    "link": "https://www.zdnet.com/article/your-gmail-inbox-now-includes-gemini-summaries-by-default-how-to-stop-them/",
+    "description": "You no longer have to manually start Gemini summaries for long email chains, but you can also opt out if you don't want them.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-30 14:13:00"
   },
   {
     "title": "Serviceaide Data Leak Impacts Nearly 500,000 Catholic Health Patients",
@@ -488,10 +520,18 @@
     "pub_date": "2025-05-30 14:00:00"
   },
   {
+    "title": "Getting Exposure Management Right: Insights from 500 CISOs",
+    "link": "https://www.bleepingcomputer.com/news/security/getting-exposure-management-right-insights-from-500-cisos/",
+    "description": "Pentesting isn't just about finding flaws — it's about knowing which ones matter. Pentera's 2025 State of Pentesting report uncovers which assets attackers target most, where security teams are making progress, and which exposures still fly under the radar. Focus on reducing breach impact, not ju...",
+    "source": "Bleeping Computer",
+    "logo": "https://www.bleepingcomputer.com/favicon.ico",
+    "pub_date": "2025-05-30 14:00:00"
+  },
+  {
     "title": "Fueling seamless AI at scale",
     "link": "https://www.technologyreview.com/2025/05/30/1117440/fueling-seamless-ai-at-scale/",
     "description": "From large language models (LLMs) to reasoning agents, today’s AI tools bring unprecedented computational demands. Trillion-parameter models, workloads running on-device, and swarms of agents collaborating to complete tasks all require a new paradigm of computing to become truly seamless and ubiq...",
-    "source": "MIT Technology Review",
+    "source": "MIT Technology Review AI",
     "logo": "https://www.technologyreview.com/favicon.ico",
     "pub_date": "2025-05-30 14:00:00"
   },
@@ -504,6 +544,14 @@
     "pub_date": "2025-05-30 13:41:24"
   },
   {
+    "title": "5 projects Perplexity's new Labs AI tool can whip up for you now - in minutes",
+    "link": "https://www.zdnet.com/article/5-projects-perplexitys-new-labs-ai-tool-can-whip-up-for-you-now-in-minutes/",
+    "description": "The new Perplexity Labs tool can generate anything from spreadsheets to mini apps fast. Here's how to try it and why you should.",
+    "source": "ZDNet AI",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-30 13:39:45"
+  },
+  {
     "title": "CISO Stature Rises, but Security Budgets Remain Tight",
     "link": "https://www.darkreading.com/cybersecurity-operations/ciso-stature-rises-budgets-tight",
     "description": "The rate of compensation gains has slowed from the COVID years, and budgets remain largely static due to economic fears, but CISOs are increasingly gaining executive status and responsibilities.",
@@ -512,12 +560,12 @@
     "pub_date": "2025-05-30 13:30:00"
   },
   {
-    "title": "Watch Now: Why Context is a Secret Weapon in Application Security Posture Management",
-    "link": "https://www.securityweek.com/webinar-today-why-context-is-a-secret-weapon-in-application-security-posture-management/",
-    "description": "Join the live webinar to understand why data in itself is not enough to make informed decisions for prioritization. The post Watch Now: Why Context is a Secret Weapon in Application Security Posture Management appeared first on SecurityWeek .",
-    "source": "SecurityWeek",
-    "logo": "https://www.securityweek.com/favicon.ico",
-    "pub_date": "2025-05-30 13:16:00"
+    "title": "Cybersecurity Snapshot: New Standard for AI System Security Published, While Study Finds Cyber Teams Boost Value of Business Projects",
+    "link": "https://www.tenable.com/blog/cybersecurity-snapshot-new-standard-for-ai-system-security-published-while-study-finds-cyber",
+    "description": "Check out ETSI’s new global standard for securing AI systems and models. Plus, learn how CISOs and their teams add significant value to orgs’ major initiatives. In addition, discover what webinar attendees told Tenable about their cloud security challenges. And get the latest on properly decommis...",
+    "source": "Tenable Blog",
+    "logo": "https://fr.tenable.com/favicon.ico",
+    "pub_date": "2025-05-30 13:00:00"
   },
   {
     "title": "US Banks Urge SEC to Repeal Cyber Disclosure Rule",
@@ -528,20 +576,28 @@
     "pub_date": "2025-05-30 12:55:00"
   },
   {
+    "title": "ConnectWise Breached, ScreenConnect Customers Targeted",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/connectwise-breached-screenconnect-customers-targeted",
+    "description": "The software company, which specializes in remote IT management, said a \"sophisticated nation state actor\" was behind the attack but provided few details.",
+    "source": "Dark Reading",
+    "logo": "https://www.darkreading.com/favicon.ico",
+    "pub_date": "2025-05-30 12:54:03"
+  },
+  {
+    "title": "Le juge annule la condamnation de l’exploiteur de Mango Markets",
+    "link": "https://www.zataz.com/le-juge-annule-la-condamnation-de-lexploiteur-de-mango-markets/",
+    "description": "Un retournement judiciaire inattendu relance le débat sur les frontières légales dans l’univers de la finance décentralisée....",
+    "source": "ZATAZ Magazine",
+    "logo": "https://www.zataz.com/favicon.ico",
+    "pub_date": "2025-05-30 12:52:20"
+  },
+  {
     "title": "How AI coding agents could destroy open source software",
     "link": "https://www.zdnet.com/article/how-ai-coding-agents-could-destroy-open-source-software/",
     "description": "Imagine a single rogue line of code slipping past your tired eyes - and suddenly your entire app is compromised. AI coding agents could be the silent saboteurs of the next big cybersecurity crisis.",
     "source": "ZDNet Security",
     "logo": "https://www.zdnet.com/favicon.ico",
     "pub_date": "2025-05-30 12:43:00"
-  },
-  {
-    "title": "The Download: sycophantic LLMs, and the AI Hype Index",
-    "link": "https://www.technologyreview.com/2025/05/30/1117620/the-download-sycophantic-llms-and-the-ai-hype-index/",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This benchmark used Reddit’s AITA to test how much AI models suck up to us Back in April, OpenAI announced it was rolling back an update to its GPT-4o model th...",
-    "source": "MIT Technology Review",
-    "logo": "https://www.technologyreview.com/favicon.ico",
-    "pub_date": "2025-05-30 12:10:00"
   },
   {
     "title": "Security Leaders Share Thoughts on Kettering Outage",
@@ -560,20 +616,12 @@
     "pub_date": "2025-05-30 11:12:00"
   },
   {
-    "title": "Chinese Hacking Group APT41 Exploits Google Calendar to Target Governments",
-    "link": "https://www.securityweek.com/chinese-hacking-group-apt41-exploits-google-calendar-to-target-governments/",
-    "description": "China-linked hackers used a compromised government site to target other government entities with the ToughProgress malware that uses an attacker-controlled Google Calendar for C&C. The post Chinese Hacking Group APT41 Exploits Google Calendar to Target Governments appeared first on SecurityWeek .",
-    "source": "SecurityWeek",
-    "logo": "https://www.securityweek.com/favicon.ico",
-    "pub_date": "2025-05-30 11:11:19"
-  },
-  {
-    "title": "MITRE Publishes Post-Quantum Cryptography Migration Roadmap",
-    "link": "https://www.securityweek.com/mitre-publishes-post-quantum-cryptography-migration-roadmap/",
-    "description": "The roadmap provides an overview of four key stages of the migration process, namely preparation, baseline understanding, planning and execution, and monitoring and evaluation. The post MITRE Publishes Post-Quantum Cryptography Migration Roadmap appeared first on SecurityWeek .",
-    "source": "SecurityWeek",
-    "logo": "https://www.securityweek.com/favicon.ico",
-    "pub_date": "2025-05-30 11:03:56"
+    "title": "US Treasury sanctioned the firm Funnull Technology as major cyber scam facilitator",
+    "link": "https://securityaffairs.com/178450/cyber-crime/us-treasury-sanctioned-the-firm-funnull-technology.html",
+    "description": "The U.S. sanctioned Funnull Technology and Liu Lizhi for aiding romance scams that caused major crypto losses through fraud infrastructure. The U.S. Department of Treasury’s Office of Foreign Assets Control (OFAC) sanctioned Philippines-based company Funnull Technology Inc. and its admin Liu Lizh...",
+    "source": "Security Affairs",
+    "logo": "https://securityaffairs.com/favicon.ico",
+    "pub_date": "2025-05-30 10:30:41"
   },
   {
     "title": "From the \"Department of No\" to a \"Culture of Yes\": A Healthcare CISO's Journey to Enabling Modern Care",
@@ -592,12 +640,28 @@
     "pub_date": "2025-05-30 10:30:00"
   },
   {
+    "title": "Crims defeat human intelligence with fake AI installers they poison with ransomware",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/fake_ai_installers_carry_ransomware/",
+    "description": "Take care when downloading AI freebies, researcher tells The Register Criminals are using installers for fake AI software to distribute ransomware and other destructive malware.…",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 10:25:11"
+  },
+  {
     "title": "96% of IT pros say AI agents are a security risk, but they're deploying them anyway",
     "link": "https://www.zdnet.com/article/96-of-it-pros-say-ai-agents-are-a-security-risk-but-theyre-deploying-them-anyway/",
     "description": "The same capabilities that make agents much more powerful than traditional chatbots also make them much bigger potential liabilities.",
     "source": "ZDNet Security",
     "logo": "https://www.zdnet.com/favicon.ico",
     "pub_date": "2025-05-30 10:00:00"
+  },
+  {
+    "title": "Data watchdog put cops on naughty step for lost CCTV footage",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/uk_data_watchdog_found_police/",
+    "description": "Greater Manchester Police reprimanded over hours of video that went AWOL The UK’s data watchdog has reprimanded Greater Manchester Police (GMP) force for losing CCTV footage the cop shop was later requested to retain.…",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 09:29:14"
   },
   {
     "title": "This month in security with Tony Anscombe – May 2025 edition",
@@ -619,25 +683,49 @@
     "title": "This benchmark used Reddit’s AITA to test how much AI models suck up to us",
     "link": "https://www.technologyreview.com/2025/05/30/1117551/this-benchmark-used-reddits-aita-to-test-how-much-ai-models-suck-up-to-us/",
     "description": "Back in April, OpenAIannounced it was rolling back an update to its GPT-4o model that made ChatGPT’s responses to user queries too sycophantic. An AI model that acts in an overly agreeable and flattering way is more than just annoying. It could reinforce users’ incorrect beliefs, mislead people, ...",
-    "source": "MIT Technology Review",
+    "source": "MIT Technology Review AI",
     "logo": "https://www.technologyreview.com/favicon.ico",
     "pub_date": "2025-05-30 09:00:00"
   },
   {
-    "title": "12 Best Online HR Courses To Take in 2025",
-    "link": "https://www.aihr.com/blog/online-hr-courses/",
-    "description": "Whether you’re looking to enter the HR field and build your knowledge or are a seasoned HR professional wanting to get certified and grow in your career, online HR courses are a great place to start. Although only some organizations require employees to be certified or have completed a formal HR ...",
-    "source": "AI in HR",
-    "logo": "https://www.aihr.com/favicon.ico",
-    "pub_date": "2025-05-30 08:41:50"
+    "title": "Will your car hit that deer? Depends on your headlight bulbs—and the deer’s personality",
+    "link": "https://www.science.org/content/article/will-your-car-hit-deer-depends-your-headlight-bulbs-and-deer-s-personality",
+    "description": "Halogen bulbs more reliably catch deer’s attention, but whether the animals flee or freeze comes down to individual temperament",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-30 09:00:00"
   },
   {
-    "title": "12 Steps To Build an HR Data Strategy [+ Examples]",
-    "link": "https://www.aihr.com/blog/hr-data-strategy/",
-    "description": "A high-impact HR data strategy isn’t about collecting more numbers. With the right structure, tools, and habits in place, HR teams can translate day-to-day data into decisions that create real business impact. At Credit Suisse, predictive analytics helped identify employees at high risk of leavin...",
-    "source": "AI in HR",
-    "logo": "https://www.aihr.com/favicon.ico",
-    "pub_date": "2025-05-30 08:04:56"
+    "title": "The UK wants you to sign up for £1B cyber defense force",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/uk_cyber_defense/",
+    "description": "War in Ukraine causes major rethink in policy and spending The UK is spending more than £1 billion ($1.35 billion) setting up a new Cyber and Electromagnetic Command and is recruiting a few good men and women to join up and staff it.…",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 08:31:10"
+  },
+  {
+    "title": "Final NSF budget proposal jettisons one giant telescope amid savage agencywide cuts",
+    "link": "https://www.science.org/content/article/final-nsf-budget-proposal-jettisons-one-giant-telescope-amid-savage-agencywide-cuts",
+    "description": "Trump’s 57% proposed cut to agency would drop grant success rates to 7% and gut education and training",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-30 08:30:07"
+  },
+  {
+    "title": "ConnectWise suffered a cyberattack carried out by a sophisticated nation state actor",
+    "link": "https://securityaffairs.com/178442/hacking/connectwise-cyberattack-sophisticated-nation-state-actor.html",
+    "description": "ConnectWise detected suspicious activity linked to a nation-state actor, impacting a small number of its ScreenConnect customers. ConnectWise revealed it had detected suspicious activity linked to an advanced nation-state actor. The company confirmed that the attack impacted a small number of its...",
+    "source": "Security Affairs",
+    "logo": "https://securityaffairs.com/favicon.ico",
+    "pub_date": "2025-05-30 08:02:39"
+  },
+  {
+    "title": "Infosecurity Europe 2025 drives cybersecurity priorities amid growing global risks",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/infosecurity_europe_2025_global_risk_cybersecurity/",
+    "description": "30-year anniversary event adds classes and sessions to address new risks Partner content Infosecurity Europe celebrates its 30th anniversary by doubling down on its mission: Building a Safer Cyber World. Returning to ExCeL London from 3-5 June, the landmark edition of Europe's most influential cy...",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 08:00:16"
   },
   {
     "title": "CISA Urged to Enrich KEV Catalog with More Contextual Data",
@@ -648,44 +736,76 @@
     "pub_date": "2025-05-30 08:00:00"
   },
   {
-    "title": "Testing the Unpredictable: Yevhenii Ivanchenko’s Breakthroughs in AI Quality Control",
-    "link": "https://www.aitimejournal.com/testing-the-unpredictable-yevhenii-ivanchenkos-breakthroughs-in-ai-quality-control/52882/",
-    "description": "Florida Engineer Slashes Testing Time 60% While Making AI Systems More Reliable for 300M+ Users Numbers rarely lie, and today’s tech industry statistics tell quite a story. Open any major tech publication or industry forecast, and one trend jumps off the page: companies can’t hire AI testing spec...",
-    "source": "AI Time Journal",
-    "logo": "https://www.aitimejournal.com/favicon.ico",
-    "pub_date": "2025-05-30 06:53:16"
+    "title": "U.S. Sanctions Funnull for $200M Romance Baiting Scams Tied to Crypto Fraud",
+    "link": "https://thehackernews.com/2025/05/us-sanctions-funnull-for-200m-romance.html",
+    "description": "The U.S. Department of Treasury's Office of Foreign Assets Control (OFAC) has levied sanctions against a Philippines-based company named Funnull Technology Inc. and its administrator Liu Lizhi for providing infrastructure to conduct romance baiting scams that led to massive cryptocurrency losses....",
+    "source": "The Hacker News",
+    "logo": "https://thehackernews.com/favicon.ico",
+    "pub_date": "2025-05-30 07:51:00"
   },
   {
-    "title": "Why privacy in blockchain must start with open source",
-    "link": "https://www.helpnetsecurity.com/2025/05/30/open-source-blockchain-privacy/",
-    "description": "Traditionally, trust came from centralized institutions. Banks, payment networks, and clearinghouses are closed systems. Users cannot see the inner workings, but they rely on external audits, government regulation, and long histories of compliance to feel secure. It’s a model that has and continu...",
-    "source": "Helpnet Security",
-    "logo": "https://www.helpnetsecurity.com/favicon.ico",
-    "pub_date": "2025-05-30 06:00:15"
+    "title": "‘Devastating.’ NIH cancels future funding plans for HIV vaccine consortia",
+    "link": "https://www.science.org/content/article/devasting-nih-cancels-future-funding-plans-hiv-vaccine-consortia",
+    "description": "Researchers decry agency’s decision just as new leads reinvigorate search for long-sought vaccine",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-30 07:05:00"
   },
   {
-    "title": "Using AI to outsmart AI-driven phishing scams",
-    "link": "https://www.helpnetsecurity.com/2025/05/30/ai-phishing-defense/",
-    "description": "Phishing scams used to be filled with awkward wording and obvious grammar mistakes. Not anymore. AI is now making it harder to distinguish what is real. According to Cofense, email-based scams surged 70% year over year, driven by AI’s ability to automate lures, spoof internal conversations, and b...",
-    "source": "Helpnet Security",
-    "logo": "https://www.helpnetsecurity.com/favicon.ico",
-    "pub_date": "2025-05-30 05:30:45"
+    "title": "CVE-2025-21174 Windows Standards-Based Storage Management Service Denial of Service Vulnerability",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21174",
+    "description": "In the Security Updates table, corrected the Download and Article links for Windows Server 2012 R2 and Windows Server 2012 R2 (Server Core installation). This is an informational change only.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-30 07:00:00"
   },
   {
-    "title": "AI agents have access to key data across the enterprise",
-    "link": "https://www.helpnetsecurity.com/2025/05/30/ai-agents-organizations-risk/",
-    "description": "82% of organizations already use AI agents, but only 44% of organizations report having policies in place to secure them, according to SailPoint. While 53% are in the process of developing such policies, the reality is that most remain exposed today. AI agents pose security risks for organization...",
-    "source": "Helpnet Security",
-    "logo": "https://www.helpnetsecurity.com/favicon.ico",
-    "pub_date": "2025-05-30 05:00:26"
+    "title": "Dozens of active and planned NASA spacecraft killed in Trump budget request",
+    "link": "https://www.science.org/content/article/dozens-active-and-planned-nasa-spacecraft-killed-trump-budget-request",
+    "description": "Proposal would end nearly all new major science missions",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-30 06:55:01"
   },
   {
-    "title": "Exchange 2016, 2019 support ends soon: What IT should do to stay secure",
-    "link": "https://www.helpnetsecurity.com/2025/05/30/exchange-server-2016-2019-end-of-support/",
-    "description": "Microsoft is ending support for Exchange Server 2016, Exchange Server 2019, and Outlook 2016 on October 14, 2025. That date might seem far off, but if you’re managing email systems or Office deployments, it’s worth paying attention to now. These products will keep working past that deadline, but ...",
-    "source": "Helpnet Security",
-    "logo": "https://www.helpnetsecurity.com/favicon.ico",
-    "pub_date": "2025-05-30 04:30:09"
+    "title": "ConnectWise Hit by Cyberattack; Nation-State Actor Suspected in Targeted Breach",
+    "link": "https://thehackernews.com/2025/05/connectwise-hit-by-cyberattack-nation.html",
+    "description": "ConnectWise, the developer of remote access and support software ScreenConnect, has disclosed that it was the victim of a cyber attack that it said was likely perpetrated by a nation-state threat actor. \"ConnectWise recently learned of suspicious activity within our environment that we believe wa...",
+    "source": "The Hacker News",
+    "logo": "https://thehackernews.com/favicon.ico",
+    "pub_date": "2025-05-30 06:11:00"
+  },
+  {
+    "title": "NIH funding policy deals new blow to HIV-related trial networks",
+    "link": "https://www.science.org/content/article/nih-funding-policy-deals-new-blow-hiv-related-trial-networks",
+    "description": "Halt to foreign “subawards” disrupts ongoing global studies and has researchers scrambling to fulfill ethical obligations to trial volunteers",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-30 05:20:00"
+  },
+  {
+    "title": "'Everest Group' Extorts Global Orgs via SAP's HR Tool",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/everest-group-extorts-global-orgs-hr-tool",
+    "description": "In addition to Coca-Cola, entities in Abu Dhabi, Jordan, Namibia, South Africa, and Switzerland are experiencing extortion attacks, all involving stolen SAP SuccessFactor data.",
+    "source": "Dark Reading",
+    "logo": "https://www.darkreading.com/favicon.ico",
+    "pub_date": "2025-05-30 05:00:00"
+  },
+  {
+    "title": "Trump officials downplay fake citations in high-profile report on children’s health",
+    "link": "https://www.science.org/content/article/trump-officials-downplay-fake-citations-high-profile-report-children-s-health",
+    "description": "References to phantom studies comes after White House pledge to practice “gold standard” science",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-30 04:50:00"
+  },
+  {
+    "title": "Meta Disrupts Influence Ops Targeting Romania, Azerbaijan, and Taiwan with Fake Personas",
+    "link": "https://thehackernews.com/2025/05/meta-disrupts-influence-ops-targeting.html",
+    "description": "Meta on Thursday revealed that it disrupted three covert influence operations originating from Iran, China, and Romania during the first quarter of 2025. \"We detected and removed these campaigns before they were able to build authentic audiences on our apps,\" the social media giant said in its qu...",
+    "source": "The Hacker News",
+    "logo": "https://thehackernews.com/favicon.ico",
+    "pub_date": "2025-05-30 04:09:00"
   },
   {
     "title": "ISC Stormcast For Friday, May 30th, 2025 https://isc.sans.edu/podcastdetail/9472, (Fri, May 30th)",
@@ -704,6 +824,14 @@
     "pub_date": "2025-05-30 01:55:16"
   },
   {
+    "title": "Clearest ever images of Sun’s corona reveal ‘raindrops’ of dancing plasma",
+    "link": "https://www.science.org/content/article/clearest-ever-images-sun-s-corona-reveal-raindrops-dancing-plasma",
+    "description": "New system yields sharp views of the Sun’s mysterious outer atmosphere",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-30 01:35:00"
+  },
+  {
     "title": "Best home automation systems 2025: I'm a smart home reviewer and these are the top ones",
     "link": "https://www.zdnet.com/article/best-home-automation-system/",
     "description": "The top home automation systems combine all your smart home devices in one hub, creating an intuitive interface with smart home convenience to make your life easier.",
@@ -720,12 +848,156 @@
     "pub_date": "2025-05-30 00:33:50"
   },
   {
-    "title": "Flashpoint Weekly Vulnerability Insights and Prioritization Report",
-    "link": "https://www.flashpoint.io/blog/flashpoint-weekly-vulnerability-insights-prioritization/",
-    "description": "Anticipate, contextualize, and prioritize vulnerabilities to effectively address threats to your organization. The post Flashpoint Weekly Vulnerability Insights and Prioritization Report appeared first on Flashpoint .",
-    "source": "Flashpoint Intel",
-    "logo": "https://www.flashpoint.io/favicon.ico",
-    "pub_date": "2025-05-29 19:12:22"
+    "title": "Security outfit SentinelOne's services back online after lengthy outage",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2025/05/30/sentinelone_outage/",
+    "description": "Probably not a cyber-incident, but definitely not a good look Security services vendor SentinelOne experienced a major outage on Thursday.…",
+    "source": "The Register Security",
+    "logo": "https://www.theregister.com/favicon.ico",
+    "pub_date": "2025-05-30 00:33:15"
+  },
+  {
+    "title": "Mozilla releases Firefox 139.0.1 update to fix artifacts on Nvidia GPUs",
+    "link": "https://www.bleepingcomputer.com/news/software/mozilla-releases-firefox-13901-update-to-fix-artifacts-on-nvidia-gpus/",
+    "description": "Mozilla has rolled out an emergency Firefox 139.0.1 update after the Tuesday release caused graphical artifacts on PCs with NVIDIA GPUs. [...]",
+    "source": "Bleeping Computer",
+    "logo": "https://www.bleepingcomputer.com/favicon.ico",
+    "pub_date": "2025-05-29 23:58:04"
+  },
+  {
+    "title": "Microsoft Authenticator now warns to export passwords before July cutoff",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-authenticator-now-warns-to-export-passwords-before-july-cutoff/",
+    "description": "The Microsoft Authenticator app is now issuing notifications warning that the password autofill feature is being deprecated in July, suggesting users move to Microsoft Edge instead. [...]",
+    "source": "Bleeping Computer",
+    "logo": "https://www.bleepingcomputer.com/favicon.ico",
+    "pub_date": "2025-05-29 23:49:49"
+  },
+  {
+    "title": "FLUX.1 Kontext enables in-context image generation for enterprise AI pipelines",
+    "link": "https://venturebeat.com/ai/flux-1-kontext-enables-in-context-image-generation-for-enterprise-ai-pipelines/",
+    "description": "FLUX.1 Kontext from Black Forest Labs aims to let users edit images multiple times through both text and reference images without losing speed.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-29 23:32:17"
+  },
+  {
+    "title": "From Code Red to Rust: Microsoft's Security Journey",
+    "link": "https://www.darkreading.com/application-security/from-code-red-to-rust-microsoft-security-journey",
+    "description": "At this year's Build developer conference, Microsoft reflected on what the company learned about securing features and writing secure code in the early 2000s.",
+    "source": "Dark Reading",
+    "logo": "https://www.darkreading.com/favicon.ico",
+    "pub_date": "2025-05-29 22:04:28"
+  },
+  {
+    "title": "NSA, CISA Urge Organizations to Secure Data Used in AI Models",
+    "link": "https://www.darkreading.com/cyber-risk/nsa-cisa-gudnceai-secure-data-ai-models",
+    "description": "New guidance includes a list of 10 best practices to protect sensitive data throughout the AI life cycle, as well as tips to address supply chain and data-poisoning risks.",
+    "source": "Dark Reading",
+    "logo": "https://www.darkreading.com/favicon.ico",
+    "pub_date": "2025-05-29 21:03:51"
+  },
+  {
+    "title": "Victoria's Secret Goes Offline After 'Incident' Claims",
+    "link": "https://www.darkreading.com/endpoint-security/victoria-secret-website-security-incident",
+    "description": "The lingerie retailer isn't revealing much about the security incident it's dealing with but has brought in third-party experts to address the issue.",
+    "source": "Dark Reading",
+    "logo": "https://www.darkreading.com/favicon.ico",
+    "pub_date": "2025-05-29 20:52:37"
+  },
+  {
+    "title": "Self-Adapting Drones for Unpredictable Worlds",
+    "link": "https://content.knowledgehub.wiley.com/empowering-drone-security-with-embodied-ai/",
+    "description": "As drones evolve into critical agents across defense, disaster response, and infrastructure inspection, they must become more adaptive, secure, and resilient. Traditional AI methods fall short in real-world unpredictability. This whitepaper from the Technology Innovation Institute (TII) explores ...",
+    "source": "IEEE Spectrum AI",
+    "logo": "https://spectrum.ieee.org/favicon.ico",
+    "pub_date": "2025-05-29 20:00:11"
+  },
+  {
+    "title": "Lumma Infostealer – Down but Not Out?",
+    "link": "https://blog.checkpoint.com/security/lumma-infostealer-down-but-not-out/",
+    "description": "Key Findings: The takedown achieved a significant disruption to Lumma infostealers’ infrastructure, but likely didn’t permanently affect most of its Russia-hosted infrastructure. Lumma’s developers are undertaking significant efforts to reinstate the activity and to conduct business as usual. The...",
+    "source": "Check Point Blog EN",
+    "logo": "https://blog.checkpoint.com/favicon.ico",
+    "pub_date": "2025-05-29 19:32:03"
+  },
+  {
+    "title": "ConnectWise breached in cyberattack linked to nation-state hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/connectwise-breached-in-cyberattack-linked-to-nation-state-hackers/",
+    "description": "IT management software firm ConnectWise says a suspected state-sponsored cyberattack breached its environment and impacted a limited number of ScreenConnect customers. [...]",
+    "source": "Bleeping Computer",
+    "logo": "https://www.bleepingcomputer.com/favicon.ico",
+    "pub_date": "2025-05-29 19:12:12"
+  },
+  {
+    "title": "Chromium: CVE-2025-5066 Inappropriate implementation in Messages",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5066",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/202[SS9.1]5) for more information.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-29 19:06:23"
+  },
+  {
+    "title": "Chromium: CVE-2025-5067 Inappropriate implementation in Tab Strip",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5067",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/202[SS9.1]5) for more information.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-29 18:55:16"
+  },
+  {
+    "title": "Chromium: CVE-2025-5283 Use after free in libvpx",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5283",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/202[SS9.1]5) for more information.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-29 18:55:14"
+  },
+  {
+    "title": "Chromium: CVE-2025-5281 Inappropriate implementation in BFCache",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5281",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/202[SS9.1]5) for more information.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-29 18:55:12"
+  },
+  {
+    "title": "Chromium: CVE-2025-5065 Inappropriate implementation in FileSystemAccess API",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5065",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/202[SS9.1]5) for more information.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-29 18:55:09"
+  },
+  {
+    "title": "Chromium: CVE-2025-5064 Inappropriate implementation in Background Fetch API",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5064",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/202[SS9.1]5) for more information.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-29 18:55:07"
+  },
+  {
+    "title": "Chromium: CVE-2025-5280 Out of bounds write in V8",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5280",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/202[SS9.1]5) for more information.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-29 18:55:05"
+  },
+  {
+    "title": "Chromium: CVE-2025-5063 Use after free in Compositing",
+    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5063",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/202[SS9.1]5) for more information.",
+    "source": "Microsoft Security Blog",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "pub_date": "2025-05-29 18:55:01"
+  },
+  {
+    "title": "Emotive voice AI startup Hume launches new EVI 3 model with rapid custom voice creation",
+    "link": "https://venturebeat.com/ai/emotive-voice-ai-startup-hume-launches-new-evi-3-model-with-rapid-custom-voice-creation/",
+    "description": "While EVI 3’s specific API pricing has not been announced yet (marked as TBA), the pattern suggests it will be usage-based.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-29 18:50:47"
   },
   {
     "title": "Save 20% on this encrypted Kingston portable SSD to lock down your data",
@@ -736,6 +1008,22 @@
     "pub_date": "2025-05-29 17:59:47"
   },
   {
+    "title": "Qualys TRU Discovers Two Local Information Disclosure Vulnerabilities in Apport and systemd-coredump: CVE-2025-5054 and CVE-2025-4598",
+    "link": "https://blog.qualys.com/category/vulnerabilities-threat-research",
+    "description": "The Qualys Threat Research Unit (TRU) has discovered two local information-disclosure vulnerabilities in Apport and systemd-coredump. Both issues are race-condition vulnerabilities. The first (CVE-2025-5054) affects Ubuntu’s core-dump handler, Apport, and the second (CVE-2025-4598) targets system...",
+    "source": "Qualys Blog",
+    "logo": "https://blog.qualys.com/favicon.ico",
+    "pub_date": "2025-05-29 17:16:00"
+  },
+  {
+    "title": "Threat actors abuse Google Apps Script in evasive phishing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/threat-actors-abuse-google-apps-script-in-evasive-phishing-attacks/",
+    "description": "Threat actors are abusing the trusted Google platform 'Google Apps Script' to host phishing pages, making them appear legitimate and eliminating the risk of them getting flagged by security tools. [...]",
+    "source": "Bleeping Computer",
+    "logo": "https://www.bleepingcomputer.com/favicon.ico",
+    "pub_date": "2025-05-29 16:25:36"
+  },
+  {
     "title": "What the LockBit Data Breach Reveals About Its Inner Workings",
     "link": "https://www.securitymagazine.com/articles/101656-what-the-lockbit-data-breach-reveals-about-its-inner-workings",
     "description": "What does the LockBit data breach reveal about the group’s inner workings?",
@@ -744,20 +1032,124 @@
     "pub_date": "2025-05-29 16:00:00"
   },
   {
-    "title": "What AI’s impact on individuals means for the health workforce and industry",
-    "link": "https://www.microsoft.com/en-us/research/podcast/what-ais-impact-on-individuals-means-for-the-health-workforce-and-industry/",
-    "description": "Ethan Mollick and Azeem Azhar, thought leaders at the forefront of AI’s influence on work, education, and society, discuss the impact of AI at the individual level and what that means for the healthcare workforce and the organizations and systems in medicine. The post What AI’s impact on individu...",
-    "source": "Microsoft Research AI",
-    "logo": "https://www.microsoft.com/favicon.ico",
-    "pub_date": "2025-05-29 15:13:48"
+    "title": "Your Asus router may be compromised - here's how to tell and what to do",
+    "link": "https://www.zdnet.com/article/your-asus-router-may-be-compromised-heres-how-to-tell-and-what-to-do/",
+    "description": "Cybercriminals have hacked into thousands of Asus routers, possibly as a prelude to a widescale botnet attack, says a security firm.",
+    "source": "ZDNet Security",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-29 15:55:25"
   },
   {
-    "title": "The Download: the next anti-drone weapon, and powering AI’s growth",
-    "link": "https://www.technologyreview.com/2025/05/29/1117539/the-download-the-next-anti-drone-weapon-and-powering-ais-growth/",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This giant microwave may change the future of war Imagine: China deploys hundreds of thousands of autonomous drones in the air, on the sea, and under the water...",
-    "source": "MIT Technology Review",
-    "logo": "https://www.technologyreview.com/favicon.ico",
-    "pub_date": "2025-05-29 12:15:00"
+    "title": "Cybercriminals Target AI Users with Malware-Loaded Installers Posing as Popular Tools",
+    "link": "https://thehackernews.com/2025/05/cybercriminals-target-ai-users-with.html",
+    "description": "Fake installers for popular artificial intelligence (AI) tools like OpenAI ChatGPT and InVideo AI are being used as lures to propagate various threats, such as the CyberLock and Lucky_Gh0$t ransomware families, and a new malware dubbed Numero. \"CyberLock ransomware, developed using PowerShell, pr...",
+    "source": "The Hacker News",
+    "logo": "https://thehackernews.com/favicon.ico",
+    "pub_date": "2025-05-29 15:47:00"
+  },
+  {
+    "title": "ConnectWise Confirms Hack, “Very Small Number” of Customers Affected",
+    "link": "https://www.infosecurity-magazine.com/news/connectwise-confirms-hack/",
+    "description": "The firm’s remote monitoring management tool, ScreenConnect, has reportedly been patched",
+    "source": "Infosecurity Magazine",
+    "logo": "https://www.infosecurity-magazine.com/favicon.ico",
+    "pub_date": "2025-05-29 15:20:00"
+  },
+  {
+    "title": "57 suspicious Chrome extensions with millions of installs | Kaspersky official blog",
+    "link": "https://www.kaspersky.com/blog/suspicious-chrome-extensions-with-6-million-installs/53529/",
+    "description": "57 suspicious extensions with millions of installs have been found in the Chrome Web Store. Here's how they work, and why you need to remove them.",
+    "source": "Kaspersky Daily",
+    "logo": "https://www.kaspersky.com/favicon.ico",
+    "pub_date": "2025-05-29 15:18:39"
+  },
+  {
+    "title": "Victoria’s Secret ‘s website offline following a cyberattack",
+    "link": "https://securityaffairs.com/178432/hacking/victorias-secrets-website-offline-following-a-cyberattack.html",
+    "description": "Victoria’s Secret took its website offline after a cyberattack, with experts warning of rising threats against major retailers. American lingerie, clothing, and beauty retailer Victoria’s Secret took its website offline following a cyberattack. At this time, the site shows the following message: ...",
+    "source": "Security Affairs",
+    "logo": "https://securityaffairs.com/favicon.ico",
+    "pub_date": "2025-05-29 14:51:55"
+  },
+  {
+    "title": "Our favorite budget video doorbell gets an upgrade - see what's new with Amazon's Blink",
+    "link": "https://www.zdnet.com/article/our-favorite-budget-video-doorbell-gets-an-upgrade-see-whats-new-with-amazons-blink/",
+    "description": "The second-generation Blink Video Doorbell delivers a wider field of view, enhanced night vision, upgraded person detection, and more.",
+    "source": "ZDNet Security",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-29 14:00:20"
+  },
+  {
+    "title": "New Browser Exploit Technique Undermines Phishing Detection",
+    "link": "https://www.infosecurity-magazine.com/news/browser-exploit-technique/",
+    "description": "Fullscreen Browser-in-the-Middle attacks are making it harder for users to detect malicious websites",
+    "source": "Infosecurity Magazine",
+    "logo": "https://www.infosecurity-magazine.com/favicon.ico",
+    "pub_date": "2025-05-29 13:30:00"
+  },
+  {
+    "title": "DeepSeek R1-0528 arrives in powerful open source challenge to OpenAI o3 and Google Gemini 2.5 Pro",
+    "link": "https://venturebeat.com/ai/deepseek-r1-0528-arrives-in-powerful-open-source-challenge-to-openai-o3-and-google-gemini-2-5-pro/",
+    "description": "Additionally, the model’s hallucination rate has been reduced, contributing to more reliable and consistent output.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-29 13:22:40"
+  },
+  {
+    "title": "New Windows RAT Evades Detection for Weeks Using Corrupted DOS and PE Headers",
+    "link": "https://thehackernews.com/2025/05/new-windows-rat-evades-detection-for.html",
+    "description": "Cybersecurity researchers have taken the wraps off an unusual cyber attack that leveraged malware with corrupted DOS and PE headers, according to new findings from Fortinet. The DOS (Disk Operating System) and PE (Portable Executable) headers are essential parts of a Windows PE file, providing in...",
+    "source": "The Hacker News",
+    "logo": "https://thehackernews.com/favicon.ico",
+    "pub_date": "2025-05-29 13:16:00"
+  },
+  {
+    "title": "Porn sites probed for allegedly failing to prevent minors from accessing content",
+    "link": "https://www.malwarebytes.com/blog/news/2025/05/porn-sites-probed-for-allegedly-failing-to-prevent-minors-from-accessing-content",
+    "description": "Four porn sites are being investigated by the European Commission under its Digital Services Act (DSA) for allegedly failing to verify its users' ages properly.",
+    "source": "Malwarebytes Labs",
+    "logo": "https://blog.malwarebytes.com/favicon.ico",
+    "pub_date": "2025-05-29 13:06:20"
+  },
+  {
+    "title": "Getting Ahead of AI Risk: What Comes Next for Tenable",
+    "link": "https://www.tenable.com/blog/getting-ahead-of-ai-risk-what-comes-next-for-tenable",
+    "description": "The acquisition of Apex Security adds a powerful new layer of visibility, context and control to the Tenable One Exposure Management Platform to govern usage, enforce policy and control exposure across both the AI that organizations use and the AI they build. Over the past 25 years, we’ve seen th...",
+    "source": "Tenable Blog",
+    "logo": "https://fr.tenable.com/favicon.ico",
+    "pub_date": "2025-05-29 13:02:00"
+  },
+  {
+    "title": "Malware Analysis Reveals Sophisticated RAT With Corrupted Headers",
+    "link": "https://www.infosecurity-magazine.com/news/rat-corrupted-headers/",
+    "description": "Fortinet has identified a new Windows RAT operating stealthily on compromised systems with advanced evasion techniques",
+    "source": "Infosecurity Magazine",
+    "logo": "https://www.infosecurity-magazine.com/favicon.ico",
+    "pub_date": "2025-05-29 13:00:00"
+  },
+  {
+    "title": "How Snowflake’s open-source text-to-SQL and Arctic inference models solve enterprise AI’s two biggest deployment headaches",
+    "link": "https://venturebeat.com/ai/how-snowflakes-open-source-text-to-sql-and-arctic-inference-models-solve-enterprise-ais-two-biggest-deployment-headaches/",
+    "description": "New open-source efforts from Snowflake aim to help solve that unsolved challenges of text-to-SQL and inference performance for enterprise AI.",
+    "source": "VentureBeat AI",
+    "logo": "https://venturebeat.com/favicon.ico",
+    "pub_date": "2025-05-29 13:00:00"
+  },
+  {
+    "title": "Take back control of your browser—Malwarebytes Browser Guard now blocks search hijacking attempts",
+    "link": "https://www.malwarebytes.com/blog/product/2025/05/take-back-control-of-your-browsermalwarebytes-browser-guard-will-now-block-search-hijacking-attempts",
+    "description": "Malwarebytes Browser Guard has a cool new feature to protect you against search hijacking.",
+    "source": "Malwarebytes Labs",
+    "logo": "https://blog.malwarebytes.com/favicon.ico",
+    "pub_date": "2025-05-29 12:37:25"
+  },
+  {
+    "title": "Thousands of ASUS Routers Hijacked in Stealthy Backdoor Campaign",
+    "link": "https://www.infosecurity-magazine.com/news/thousands-asus-routers-compromised/",
+    "description": "A threat actor has used ASUS routers’ legitimate features to create persistent backdoors that survive firmware updates and reboots",
+    "source": "Infosecurity Magazine",
+    "logo": "https://www.infosecurity-magazine.com/favicon.ico",
+    "pub_date": "2025-05-29 12:05:00"
   },
   {
     "title": "Adidas Confirms Data Breach, Security Leaders Weigh In",
@@ -768,28 +1160,100 @@
     "pub_date": "2025-05-29 12:00:00"
   },
   {
-    "title": "Odyssey’s AI model transforms video into interactive worlds",
-    "link": "https://www.artificialintelligence-news.com/news/odyssey-ai-model-transforms-video-into-interactive-worlds/",
-    "description": "London-based AI lab Odyssey has launched a research preview of a model transforming video into interactive worlds. Initially focusing on world models for film and game production, the Odyssey team has stumbled onto potentially a completely new entertainment medium. The interactive video generated...",
-    "source": "AI News",
-    "logo": "https://www.artificialintelligence-news.com/favicon.ico",
-    "pub_date": "2025-05-29 10:14:47"
+    "title": "Siemens SiPass Integrated",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-148-02",
+    "description": "As of January 10, 2023, CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory, please see Siemens' ProductCERT Security Advisories (CERT Services | Services |...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-29 12:00:00"
   },
   {
-    "title": "What will power AI’s growth?",
-    "link": "https://www.technologyreview.com/2025/05/29/1117500/ai-energy-growth-nuclear-natural-gas/",
-    "description": "It’s been a little over a week since we published Power Hungry, a package that takes a hard look at the expected energy demands of AI. Last week in this newsletter, I broke down the centerpiece of that package, an analysis I did with my colleague James O’Donnell. (In case you’re still looking for...",
-    "source": "MIT Technology Review",
-    "logo": "https://www.technologyreview.com/favicon.ico",
-    "pub_date": "2025-05-29 10:00:00"
+    "title": "Consilium Safety CS5000 Fire Panel",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-148-03",
+    "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 9.3 ATTENTION : Exploitable remotely/low attack complexity Vendor : Consilium Safety Equipment : CS5000 Fire Panel Vulnerabilities : Initialization of a Resource with an Insecure Default, Use of Hard-coded Credentials 2. RISK EVALUATION Successful exploitati...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-29 12:00:00"
   },
   {
-    "title": "[Free Template] Your 2025 Guide to Writing a Recruitment Policy",
-    "link": "https://www.aihr.com/blog/recruitment-policy/",
-    "description": "A solid recruitment policy is indispensable if you want to attract the right candidates, especially when competition is tough and top talent is scarce. In fact, 70% of hiring professionals believe there’s currently a talent shortage. As organizations struggle to find suitable hires, over half hav...",
-    "source": "AI in HR",
-    "logo": "https://www.aihr.com/favicon.ico",
-    "pub_date": "2025-05-29 09:12:16"
+    "title": "Instantel Micromate",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-148-04",
+    "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 9.3 ATTENTION : Exploitable remotely/low attack complexity Vendor : Instantel Equipment : Micromate Vulnerability : Missing Authentication for Critical Function 2. RISK EVALUATION Successful exploitation of this vulnerability could allow an unauthenticated a...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-29 12:00:00"
+  },
+  {
+    "title": "CISA Releases Five Industrial Control Systems Advisories",
+    "link": "https://www.cisa.gov/news-events/alerts/2025/05/29/cisa-releases-five-industrial-control-systems-advisories",
+    "description": "CISA released five Industrial Control Systems (ICS) advisories on May 29, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. ICSA-25-148-01 Siemens SiPass ICSA-25-148-02 Siemens SiPass Integrated ICSA-25-148-03 Consilium...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-29 12:00:00"
+  },
+  {
+    "title": "Siemens SiPass",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-148-01",
+    "description": "As of January 10, 2023, CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory, please see Siemens' ProductCERT Security Advisories (CERT Services | Services |...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-29 12:00:00"
+  },
+  {
+    "title": "Santesoft Sante DICOM Viewer Pro",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-148-01",
+    "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.4 ATTENTION : Low attack complexity Vendor : Santesoft Equipment : Sante DICOM Viewer Pro Vulnerability : Out-of-bounds Read 2. RISK EVALUATION Successful exploitation of this vulnerability could allow an attacker to disclose information or execute arbitra...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-29 12:00:00"
+  },
+  {
+    "title": "China-linked APT41 used Google Calendar as C2 to control its TOUGHPROGRESS malware",
+    "link": "https://securityaffairs.com/178424/apt/china-linked-apt41-used-google-calendar-as-c2-to-control-its-toughprogress-malware.html",
+    "description": "Google says China-linked group APT41 controlled malware via Google Calendar to target governments through a hacked site. Google warns that China-linked APT41 used TOUGHPROGRESS malware with Google Calendar as C2, targeting various government entities via a compromised website. ” In late October 2...",
+    "source": "Security Affairs",
+    "logo": "https://securityaffairs.com/favicon.ico",
+    "pub_date": "2025-05-29 11:17:13"
+  },
+  {
+    "title": "Cybersecurity Teams Generate Average of $36M in Business Growth",
+    "link": "https://www.infosecurity-magazine.com/news/cybersecurity-teams-business-growth/",
+    "description": "A new EY report found that cybersecurity teams are a major vehicle for business growth, and CISOs should push for a seat at the top table",
+    "source": "Infosecurity Magazine",
+    "logo": "https://www.infosecurity-magazine.com/favicon.ico",
+    "pub_date": "2025-05-29 11:15:00"
+  },
+  {
+    "title": "New AyySSHush botnet compromised over 9,000 ASUS routers, adding a persistent SSH backdoor.",
+    "link": "https://securityaffairs.com/178413/malware/new-ayysshush-botnet-compromised-over-9000-asus-routers-adding-a-persistent-ssh-backdoor.html",
+    "description": "GreyNoise researchers warn of a new AyySSHush botnet compromised over 9,000 ASUS routers, adding a persistent SSH backdoor. GreyNoise discovered the AyySSHush botnet has hacked over 9,000 ASUS routers, adding a persistent SSH backdoor. “Using an AI powered network traffic analysis tool we built c...",
+    "source": "Security Affairs",
+    "logo": "https://securityaffairs.com/favicon.ico",
+    "pub_date": "2025-05-29 06:19:37"
+  },
+  {
+    "title": "Ocean simulation game reveals how seals navigate underwater",
+    "link": "https://www.science.org/content/article/ocean-simulation-game-reveals-how-seals-navigate-underwater",
+    "description": "Unusual setup shows how the animals get their bearings in deep ocean",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-29 06:00:00"
+  },
+  {
+    "title": "To boost nuclear power, Trump orders controversial rewrite of radiation safety rules",
+    "link": "https://www.science.org/content/article/boost-nuclear-power-trump-orders-controversial-rewrite-radiation-safety-rules",
+    "description": "Researchers have long debated the risks posed by low levels of ionizing radiation",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-29 03:20:00"
+  },
+  {
+    "title": "Will NSF’s flagship fellowship program survive under Trump?",
+    "link": "https://www.science.org/content/article/will-nsf-s-flagship-training-program-survive-under-trump",
+    "description": "Despite 50 Nobelists and 75,000 alumni, NSF’s graduate research fellows could be a vanishing breed",
+    "source": "Science AI",
+    "logo": "https://www.science.org/favicon.ico",
+    "pub_date": "2025-05-29 02:45:00"
   },
   {
     "title": "ISC Stormcast For Thursday, May 29th, 2025 https://isc.sans.edu/podcastdetail/9470, (Thu, May 29th)",
@@ -798,6 +1262,14 @@
     "source": "SANS Internet Storm Center",
     "logo": "https://isc.sans.edu/favicon.ico",
     "pub_date": "2025-05-29 02:00:02"
+  },
+  {
+    "title": "Alternate Data Streams &#x3f; Adversary Defense Evasion and Detection &#x5b;Guest Diary&#x5d;, (Wed, May 28th)",
+    "link": "https://isc.sans.edu/diary/rss/31990",
+    "description": "[This is a Guest Diary by Ehsaan Mavani, an ISC intern as part of the SANS.edu BACS program]",
+    "source": "SANS Internet Storm Center",
+    "logo": "https://isc.sans.edu/favicon.ico",
+    "pub_date": "2025-05-29 00:02:44"
   },
   {
     "title": "[webapps] Campcodes Online Hospital Management System 1.0 - SQL Injection",
@@ -840,12 +1312,68 @@
     "pub_date": "2025-05-29 00:00:00"
   },
   {
+    "title": "[webapps] WordPress Digits Plugin 8.4.6.1 - Authentication Bypass via OTP Bruteforcing",
+    "link": "https://www.exploit-db.com/exploits/52307",
+    "description": "WordPress Digits Plugin 8.4.6.1 - Authentication Bypass via OTP Bruteforcing",
+    "source": "Exploit-DB RSS",
+    "logo": "https://www.exploit-db.com/favicon.ico",
+    "pub_date": "2025-05-29 00:00:00"
+  },
+  {
+    "title": "Application security at re:Inforce 2025",
+    "link": "https://aws.amazon.com/blogs/security/application-security-at-reinforce-2025/",
+    "description": "A full conference pass is $1,099. Register today with the code flashsale150 to receive a limited time $150 discount, while supplies last. Join us in Philadelphia on June 16–18, 2025, for AWS re:Inforce, where you can enhance your skills and confidence in cloud security, compliance, identity, and ...",
+    "source": "AWS Security Blog",
+    "logo": "https://aws.amazon.com/favicon.ico",
+    "pub_date": "2025-05-28 22:06:12"
+  },
+  {
+    "title": "The case for countermeasures to memetic spread of misaligned values",
+    "link": "https://www.alignmentforum.org/posts/qjCk73Hu4wv9ocmRF/the-case-for-countermeasures-to-memetic-spread-of-misaligned",
+    "description": "Published on May 28, 2025 9:12 PM GMT As various people have written about before, AIs that have long-term memory might pose additional risks (most notably, LLM AGI will have memory, and memory changes alignment by Seth Herd). Even if an AI is aligned or only occasionally scheming at the start of...",
+    "source": "AI Alignment Forum",
+    "logo": "https://www.alignmentforum.org/favicon.ico",
+    "pub_date": "2025-05-28 21:12:32"
+  },
+  {
+    "title": "Panorama des activités de groupes APT, sélectionnés par ESET Research, aux quatrième trimestre 2024 et premier trimestre 2025",
+    "link": "https://www.welivesecurity.com/fr/dernieres-recherches/panorama-activites-groupes-apt-selectionnes-eset-research-quatrieme-trimestre-2024-premier-trimestre-2025/",
+    "description": "Les opérations mises en lumière reflètent plus largement le paysage des menaces durant cette période et ne représentent qu’une fraction des données d’intelligence fournies aux clients des rapports privés APT d’ESET.",
+    "source": "ESET WeLiveSecurity FR",
+    "logo": "https://www.welivesecurity.com/favicon.ico",
+    "pub_date": "2025-05-28 19:04:12"
+  },
+  {
+    "title": "Price Index Could Clarify Opaque GPU Costs for AI",
+    "link": "https://spectrum.ieee.org/gpu-prices",
+    "description": "Ask what—if anything—is holding back the AI industry, and the answer you get depends a lot on who you’re talking to. I asked one of Bloomberg’s former chief data wranglers Carmen Li , and her answer was “price transparency.” According to Li, the inability of most of the smaller AI companies to pr...",
+    "source": "IEEE Spectrum AI",
+    "logo": "https://spectrum.ieee.org/favicon.ico",
+    "pub_date": "2025-05-28 18:00:03"
+  },
+  {
     "title": "Pakistan Arrests 21 in ‘Heartsender’ Malware Service",
     "link": "https://krebsonsecurity.com/2025/05/pakistan-arrests-21-in-heartsender-malware-service/",
     "description": "Authorities in Pakistan have arrested 21 individuals accused of operating \"Heartsender,\" a once popular spam and malware dissemination service that operated for more than a decade. The main clientele for HeartSender were organized crime groups that tried to trick victim companies into making paym...",
     "source": "Krebs on Security",
     "logo": "https://krebsonsecurity.com/favicon.ico",
     "pub_date": "2025-05-28 17:41:47"
+  },
+  {
+    "title": "Deepfake-posting man faces huge $450,000 fine",
+    "link": "https://www.malwarebytes.com/blog/news/2025/05/deepfake-posting-man-faces-huge-450000-fine",
+    "description": "A man is facing a $450,000 AU fine after he published deepfake images of prominent Australian women on the now-defunct MrDeepfakes web site.",
+    "source": "Malwarebytes Labs",
+    "logo": "https://blog.malwarebytes.com/favicon.ico",
+    "pub_date": "2025-05-28 17:40:56"
+  },
+  {
+    "title": "Fake AI video generator tools lure in Facebook and LinkedIn users to deliver malware",
+    "link": "https://www.malwarebytes.com/blog/news/2025/05/fake-ai-video-generator-tools-lure-in-facebook-and-linkedin-users-to-deliver-malware",
+    "description": "Cybercriminals are using text-to-video-AI tools to lure victims to fake websites that deliver malware like infostealers and Trojans.",
+    "source": "Malwarebytes Labs",
+    "logo": "https://blog.malwarebytes.com/favicon.ico",
+    "pub_date": "2025-05-28 17:15:04"
   },
   {
     "title": "More than 40% of Fintech Breaches Linked to Third-Party Vendors",
@@ -856,140 +1384,156 @@
     "pub_date": "2025-05-28 16:00:00"
   },
   {
-    "title": "Salesforce to buy Informatica in $8B deal",
-    "link": "https://www.artificialintelligence-news.com/news/salesforce-to-buy-informatica-in-8b-deal/",
-    "description": "Salesforce has agreed to acquire data management firm Informatica in a deal valued at around $8 billion. This includes equity value, minus Salesforce’s existing investment in the company. Informatica shareholders will receive $25 in cash per share. The move aims to help Salesforce build a stronge...",
-    "source": "AI News",
-    "logo": "https://www.artificialintelligence-news.com/favicon.ico",
-    "pub_date": "2025-05-28 15:39:39"
+    "title": "Beware of the fake KeePass | Kaspersky official blog",
+    "link": "https://www.kaspersky.com/blog/trojan-password-manager-keepass-lessons/53508/",
+    "description": "How initial access brokers were stealing passwords via a trojanized KeePass password manager",
+    "source": "Kaspersky Daily",
+    "logo": "https://www.kaspersky.com/favicon.ico",
+    "pub_date": "2025-05-28 15:53:26"
   },
   {
-    "title": "Huawei Supernode 384 disrupts Nvidia’s AI market hold",
-    "link": "https://www.artificialintelligence-news.com/news/huawei-supernode-384-disrupts-nvidia-ai-market-hold/",
-    "description": "Huawei’s AI capabilities have made a breakthrough in the form of the company’s Supernode 384 architecture, marking an important moment in the global processor wars amid US-China tech tensions. The Chinese tech giant’s latest innovation emerged from last Friday’s Kunpeng Ascend Developer Conferenc...",
-    "source": "AI News",
-    "logo": "https://www.artificialintelligence-news.com/favicon.ico",
-    "pub_date": "2025-05-28 15:34:23"
+    "title": "Is that extension safe? This free tool lets you know before you install",
+    "link": "https://www.zdnet.com/article/is-that-extension-safe-this-free-site-lets-you-know-before-you-install/",
+    "description": "Don't install that unknown extension until you've checked out its reputation. Here's how to do that.",
+    "source": "ZDNet Security",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-28 14:54:09"
   },
   {
-    "title": "Leader of Qakbot Malware Conspiracy Indicted for Involvement in Global Ransomware Scheme",
-    "link": "https://www.flashpoint.io/blog/leader-of-qakbot-malware-conspiracy-indicted-for-involvement-in-global-ransomware-scheme/",
-    "description": "Blogs Blog Leader of Qakbot Malware Conspiracy Indicted for Involvement in Global Ransomware Scheme “A federal indictment unsealed today charges Rustam Rafailevich Gallyamov, 48, of Moscow, Russia, with leading a group of cyber criminals who developed and deployed the Qakbot malware. In connectio...",
-    "source": "Flashpoint Intel",
-    "logo": "https://www.flashpoint.io/favicon.ico",
-    "pub_date": "2025-05-28 14:05:51"
+    "title": "The AI Hype Index: College students are hooked on ChatGPT",
+    "link": "https://www.technologyreview.com/2025/05/28/1117468/ai-hype-index-college-students-chatgpt-meta-apple-anthropic-grok/",
+    "description": "Separating AI reality from hyped-up fiction isn’t always easy. That’s why we’ve created the AI Hype Index—a simple, at-a-glance summary of everything you need to know about the state of the industry. Large language models confidently present their responses as accurate and reliable, even when the...",
+    "source": "MIT Technology Review AI",
+    "logo": "https://www.technologyreview.com/favicon.ico",
+    "pub_date": "2025-05-28 14:13:29"
   },
   {
-    "title": "Telegram and xAI forge Grok AI deal",
-    "link": "https://www.artificialintelligence-news.com/news/telegram-and-xai-forge-grok-ai-deal/",
-    "description": "Telegram has forged a deal with Elon Musk’s xAI to weave Grok AI into the fabric of the encrypted messaging platform. This isn’t just a friendly collaboration; xAI is putting serious money on the table – a cool $300 million, a mix of hard cash and equity. And for Telegram, they’ll pocket 50% of a...",
-    "source": "AI News",
-    "logo": "https://www.artificialintelligence-news.com/favicon.ico",
-    "pub_date": "2025-05-28 13:52:39"
+    "title": "&#x5b;Guest Diary&#x5d; Exploring a Use Case of Artificial Intelligence Assistance with Understanding an Attack, (Wed, May 28th)",
+    "link": "https://isc.sans.edu/diary/rss/31980",
+    "description": "&#;x26;#;x5b;This is a Guest Diary by Jennifer Wilson, an ISC intern as part of the SANS.edu Bachelor&#;x26;#;39;s Degree in Applied Cybersecurity (BACS) program &#;x26;#;x5b;1].]",
+    "source": "SANS Internet Storm Center",
+    "logo": "https://isc.sans.edu/favicon.ico",
+    "pub_date": "2025-05-28 13:48:55"
   },
   {
-    "title": "AI Governance in Real Time: Why Trust Can’t Wait",
-    "link": "https://www.aitimejournal.com/ai-governance-in-real-time-why-trust-cant-wait/52872/",
-    "description": "AI is advancing at breakneck speed, but trust, accountability, and oversight still lag behind. As artificial intelligence systems are increasingly used to make decisions that impact jobs, health, credit, education, and civil rights, a growing chorus of leaders is calling for responsible AI govern...",
-    "source": "AI Time Journal",
-    "logo": "https://www.aitimejournal.com/favicon.ico",
+    "title": "New warning issued over toll fee scams",
+    "link": "https://www.malwarebytes.com/blog/news/2025/05/new-warning-issued-over-toll-fee-scams",
+    "description": "A renewed warning about toll fee scams has gone out. This time it comes from the DMVs of several US states.",
+    "source": "Malwarebytes Labs",
+    "logo": "https://blog.malwarebytes.com/favicon.ico",
+    "pub_date": "2025-05-28 13:34:29"
+  },
+  {
+    "title": "Quantum Force Firewalls Bring Lightning-Fast Cyber Security to the Branch Office",
+    "link": "https://blog.checkpoint.com/securing-the-network/quantum-force-firewalls-bring-lightning-fast-cyber-security-to-the-branch-office/",
+    "description": "Our hyperconnected world demands more from cyber security than ever before. Security leaders must prevent intrusions at the network level, but also protect a distributed, cloud-enabled workforce in hybrid roles and in branch offices with the same enterprise-grade security that protects a company’...",
+    "source": "Check Point Blog EN",
+    "logo": "https://blog.checkpoint.com/favicon.ico",
+    "pub_date": "2025-05-28 13:00:59"
+  },
+  {
+    "title": "Accelerate your Operations with AI Powered Security Management and Quantum Smart-1 Management 700/7000 Series Appliances",
+    "link": "https://blog.checkpoint.com/securing-the-network/smart-1-next-generation-management-appliances/",
+    "description": "Check Point introduces powerful all-in-one Quantum Smart-1 700/7000 Security Management appliances to manage security policies for both on-premises and cloud firewalls, delivering consolidated visibility, logging, compliance, and auditing across enterprise networks. These new 7th generation Quant...",
+    "source": "Check Point Blog EN",
+    "logo": "https://blog.checkpoint.com/favicon.ico",
+    "pub_date": "2025-05-28 13:00:29"
+  },
+  {
+    "title": "Where Capability Meets Opportunity: Introducing the Tenable Research Special Operations Team",
+    "link": "https://www.tenable.com/blog/where-capability-meets-opportunity-introducing-the-tenable-research-special-operations-team",
+    "description": "Meet the elite squad that’s hunting the next major cyberattack. With more than 150 years of combined research experience and expert analysis, the Tenable Research Special Operations team arms organizations with the critical and actionable intelligence necessary to proactively defend the modern at...",
+    "source": "Tenable Blog",
+    "logo": "https://fr.tenable.com/favicon.ico",
     "pub_date": "2025-05-28 13:00:00"
-  },
-  {
-    "title": "Putting the ‘Human’ Back into Human Resources: How HR Can Protect the Human Side of Work",
-    "link": "https://www.aihr.com/blog/putting-human-back-into-hr/",
-    "description": "Artificial intelligence is changing the way we work, promising increased productivity and data-driven decisions. However, AI progress also has a dark side, specifically related to the potential impact on jobs and the work itself becoming less meaningful, less personal, and less human. This is whe...",
-    "source": "AI in HR",
-    "logo": "https://www.aihr.com/favicon.ico",
-    "pub_date": "2025-05-28 09:52:09"
   },
   {
     "title": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
     "link": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
     "description": "By combining State-Space Models (SSMs) for efficient long-range dependency modeling with dense local attention for coherence, and using training strategies like diffusion forcing and frame local attention, researchers from Adobe Research successfully overcome the long-standing challenge of long-t...",
-    "source": "Synced",
+    "source": "Synced AI",
     "logo": "https://syncedreview.com/favicon.ico",
     "pub_date": "2025-05-28 09:31:27"
   },
   {
-    "title": "How AI Is Transforming Navigation and Mapping: An Interview with Oleksii Segeda",
-    "link": "https://www.aitimejournal.com/how-ai-is-transforming-navigation-and-mapping-an-interview-with-oleksii-segeda/52878/",
-    "description": "AI technologies are now used in nearly every sector, including mapping and navigation. Oleksii Segeda, Senior Data Engineer at Mapbox, has worked extensively with AI and Big Data for over a decade. In this interview, he shares how he uses these technologies to improve data quality in cartography,...",
-    "source": "AI Time Journal",
-    "logo": "https://www.aitimejournal.com/favicon.ico",
-    "pub_date": "2025-05-28 08:47:27"
+    "title": "How to disable ACR on your TV (and why you shouldn't wait to do it)",
+    "link": "https://www.zdnet.com/article/how-to-disable-acr-on-your-tv-and-why-you-shouldnt-wait-to-do-it/",
+    "description": "Smarter TV operating systems offer added convenience, but they also introduce new privacy concerns, particularly around automatic content recognition (ACR).",
+    "source": "ZDNet Security",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-28 09:30:14"
   },
   {
-    "title": "Vulnérabilité dans Traefik (28 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0457/",
-    "description": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "source": "CERT-FR",
-    "logo": "https://www.cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-28 00:00:00"
+    "title": "ISC Stormcast For Wednesday, May 28th, 2025 https://isc.sans.edu/podcastdetail/9468, (Wed, May 28th)",
+    "link": "https://isc.sans.edu/diary/rss/31988",
+    "description": "",
+    "source": "SANS Internet Storm Center",
+    "logo": "https://isc.sans.edu/favicon.ico",
+    "pub_date": "2025-05-28 02:00:03"
   },
   {
-    "title": "Multiples vulnérabilités dans  Curl (28 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0458/",
-    "description": "De multiples vulnérabilités ont été découvertes dans Curl. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "source": "CERT-FR",
-    "logo": "https://www.cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-28 00:00:00"
+    "title": "Introducing new regional implementations of Landing Zone Accelerator on AWS to support digital sovereignty",
+    "link": "https://aws.amazon.com/blogs/security/introducing-new-regional-implementations-of-landing-zone-accelerator-on-aws-to-support-digital-sovereignty/",
+    "description": "Customers often tell me that they want a simpler path to meet the compliance and industry regulatory mandates they have in their geographic regions. In our deep engagements with partners and customers, we have learned that one of the greatest challenges for customers is the translation of securit...",
+    "source": "AWS Security Blog",
+    "logo": "https://aws.amazon.com/favicon.ico",
+    "pub_date": "2025-05-27 22:00:05"
   },
   {
-    "title": "Multiples vulnérabilités dans les produits Mozilla (28 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0454/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-    "source": "CERT-FR",
-    "logo": "https://www.cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-28 00:00:00"
+    "title": "How to use the new AWS Secrets Manager Cost Allocation Tags feature",
+    "link": "https://aws.amazon.com/blogs/security/how-to-use-the-new-aws-secrets-manager-cost-allocation-tags-feature/",
+    "description": "AWS Secrets Manager is a service that you can use to manage, retrieve, and rotate database credentials, application credentials, API keys, and other secrets throughout their lifecycles. You can use Secrets Manager to replace hard-coded credentials in application source code with a runtime call to...",
+    "source": "AWS Security Blog",
+    "logo": "https://aws.amazon.com/favicon.ico",
+    "pub_date": "2025-05-27 20:48:36"
   },
   {
-    "title": "Multiples vulnérabilités dans les produits Mozilla (28 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0454/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-    "source": "CERT-FR Avis",
-    "logo": "https://cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-28 00:00:00"
+    "title": "Elevate your AI security: Must-see re:Inforce 2025 sessions",
+    "link": "https://aws.amazon.com/blogs/security/reinforce-2025-genai-sessions/",
+    "description": "A full conference pass is $1,099. Register today with the code flashsale150 to receive a limited time $150 discount, while supplies last. From proof of concepts to large scale production deployments, the rapid advancement of generative AI has ushered in unique opportunities for innovation, but it...",
+    "source": "AWS Security Blog",
+    "logo": "https://aws.amazon.com/favicon.ico",
+    "pub_date": "2025-05-27 19:47:29"
   },
   {
-    "title": "Multiples vulnérabilités dans Google Chrome (28 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0455/",
-    "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "source": "CERT-FR Avis",
-    "logo": "https://cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-28 00:00:00"
+    "title": "Navigating the threat detection and incident response track at re:Inforce 2025",
+    "link": "https://aws.amazon.com/blogs/security/navigating-the-threat-detection-and-incident-response-track-at-reinforce-2025/",
+    "description": "A full conference pass is $1,099. Register today with the code flashsale150 to receive a limited time $150 discount, while supplies last. We’re counting down to AWS re:Inforce, our annual cloud security event! We are thrilled to invite security enthusiasts and builders to join us in Philadelphia,...",
+    "source": "AWS Security Blog",
+    "logo": "https://aws.amazon.com/favicon.ico",
+    "pub_date": "2025-05-27 16:20:18"
   },
   {
-    "title": "Multiples vulnérabilités dans Citrix et Xen (28 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0456/",
-    "description": "De multiples vulnérabilités ont été découvertes dans Citrix et Xen. Elles permettent à un attaquant de provoquer une élévation de privilèges.",
-    "source": "CERT-FR Avis",
-    "logo": "https://cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-28 00:00:00"
+    "title": "Securing Your SSH authorized&#x5f;keys File, (Tue, May 27th)",
+    "link": "https://isc.sans.edu/diary/rss/31986",
+    "description": "This is nothing \"amazingly new\", but more of a reminder to secure your \"authorized_keys\" file for SSH. One of the first things I see even simple bots do to obtain persistent access to a UNIX system is to add a key to the authorized_keys file of whatever account they are compromising.",
+    "source": "SANS Internet Storm Center",
+    "logo": "https://isc.sans.edu/favicon.ico",
+    "pub_date": "2025-05-27 15:44:43"
   },
   {
-    "title": "Vulnérabilité dans Traefik (28 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0457/",
-    "description": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "source": "CERT-FR Avis",
-    "logo": "https://cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-28 00:00:00"
+    "title": "Eliminate Risk with Precision: Introducing Vulnerability Detection Sources in VMDR",
+    "link": "https://blog.qualys.com/category/product-tech/vulnmgmt-detection-response",
+    "description": "In the race against cyber threats, finding vulnerabilities is no longer enough. True security comes from understanding them—where they exist, how they were discovered, and what risks they pose. One of the most overlooked aspects in vulnerability management is knowing the source of detection. With...",
+    "source": "Qualys Blog",
+    "logo": "https://blog.qualys.com/favicon.ico",
+    "pub_date": "2025-05-27 15:00:00"
   },
   {
-    "title": "PyTorch Hangzhou Meetup Recap: Exploring the AI Open Source Ecosystem and Cutting-Edge Technology Practices",
-    "link": "https://pytorch.org/blog/pytorch-hangzhou-meetup-recap-exploring-the-ai-open-source-ecosystem-and-cutting-edge-technology-practices/",
-    "description": "On May 17, the PyTorch Meetup was successfully held in Hangzhou, drawing nearly 60 developers and industry experts from companies including Huawei, Tencent, Ant Group, and ByteDance. The event focused...",
-    "source": "PyTorch Blog",
-    "logo": "https://pytorch.org/favicon.ico",
-    "pub_date": "2025-05-27 16:26:21"
+    "title": "184 million logins for Instagram, Roblox, Facebook, Snapchat, and more exposed online",
+    "link": "https://www.malwarebytes.com/blog/news/2025/05/184-million-logins-for-instagram-roblox-facebook-snapchat-and-more-exposed-online",
+    "description": "A huge dataset with all kinds of sensitive information, likely to be the result of infostealers, has been found unsecured online.",
+    "source": "Malwarebytes Labs",
+    "logo": "https://blog.malwarebytes.com/favicon.ico",
+    "pub_date": "2025-05-27 14:57:53"
   },
   {
-    "title": "FrodoKEM: A conservative quantum-safe cryptographic algorithm",
-    "link": "https://www.microsoft.com/en-us/research/blog/frodokem-a-conservative-quantum-safe-cryptographic-algorithm/",
-    "description": "The recent advances in quantum computing offer many advantages—but also challenge current cryptographic strategies. Learn how FrodoKEM could help strengthen security, even in a future with powerful quantum computers. The post FrodoKEM: A conservative quantum-safe cryptographic algorithm appeared ...",
-    "source": "Microsoft Research AI",
-    "logo": "https://www.microsoft.com/favicon.ico",
-    "pub_date": "2025-05-27 16:00:00"
+    "title": "How to get 2FA codes on your desktop when your phone is MIA",
+    "link": "https://www.zdnet.com/article/how-to-get-2fa-codes-on-your-desktop-when-your-phone-is-mia/",
+    "description": "If you have two-factor authentication enabled but don't have your phone nearby, you can use one of these desktop apps to get your code.",
+    "source": "ZDNet Security",
+    "logo": "https://www.zdnet.com/favicon.ico",
+    "pub_date": "2025-05-27 14:21:13"
   },
   {
     "title": "Les cybercriminels utilisent de fausses publicités pour des outils d’IA",
@@ -1000,12 +1544,60 @@
     "pub_date": "2025-05-27 14:06:43"
   },
   {
-    "title": "16 Defendants Federally Charged in Connection with DanaBot Malware Scheme That Infected Computers Worldwide",
-    "link": "https://www.flashpoint.io/blog/16-defendants-federally-charged-in-connection-with-danabot-malware-scheme-that-infected-computers-worldwide/",
-    "description": "Blogs Blog 16 Defendants Federally Charged in Connection with DanaBot Malware Scheme That Infected Computers Worldwide “LOS ANGELES – A federal grand jury indictment and criminal complaint unsealed today charge 16 defendants who allegedly developed and deployed the DanaBot malware which a Russia-...",
-    "source": "Flashpoint Intel",
-    "logo": "https://www.flashpoint.io/favicon.ico",
-    "pub_date": "2025-05-27 13:51:10"
+    "title": "Employee Spotlight: Getting to Rolando Panez",
+    "link": "https://blog.checkpoint.com/company-and-culture/employee-spotlight-getting-to-rolando-panez/",
+    "description": "Rolando, can you tell us a bit about yourself? I’m a proud father of three beautiful girls. I was born and raised in Florida. I received a master’s degree in electrical engineering at the University of Florida. I worked on ASIC and board design for the space industry before transitioning to cyber...",
+    "source": "Check Point Blog EN",
+    "logo": "https://blog.checkpoint.com/favicon.ico",
+    "pub_date": "2025-05-27 13:00:02"
+  },
+  {
+    "title": "Check Point to Acquire Veriti, Redefining Threat Exposure Management in Complex Multi-Vendor Environments",
+    "link": "https://blog.checkpoint.com/security/check-point-to-acquire-veriti-redefining-threat-exposure-management-in-complex-multi-vendor-environments/",
+    "description": "We’re excited to share that Check Point is acquiring Veriti, the first to introduce preemptive exposure management which automatically remediates threat exposures and prevents threat across complex multi-vendor estates. In the era of hyperconnectivity and AI, reactive security is too slow AI has ...",
+    "source": "Check Point Blog EN",
+    "logo": "https://blog.checkpoint.com/favicon.ico",
+    "pub_date": "2025-05-27 12:00:14"
+  },
+  {
+    "title": "CISA Releases One Industrial Control Systems Advisory",
+    "link": "https://www.cisa.gov/news-events/alerts/2025/05/27/cisa-releases-one-industrial-control-systems-advisory",
+    "description": "CISA released one Industrial Control Systems (ICS) advisory on May 27, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. ICSA-25-146-01 Johnson Controls iSTAR Configuration Utility (ICU) Tool CISA encourages users and a...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-27 12:00:00"
+  },
+  {
+    "title": "New Guidance for SIEM and SOAR Implementation",
+    "link": "https://www.cisa.gov/news-events/alerts/2025/05/27/new-guidance-siem-and-soar-implementation",
+    "description": "Today, CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released new guidance for organizations seeking to procure Security Information and Event Management (SIEM) and Security Orchestration, ...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-27 12:00:00"
+  },
+  {
+    "title": "Johnson Controls iSTAR Configuration Utility (ICU) Tool",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-146-01",
+    "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 6.3 ATTENTION : Low attack complexity Vendor : Johnson Controls Inc. Equipment : iSTAR Configuration Utility (ICU) tool Vulnerability : Use of Uninitialized Variable 2. RISK EVALUATION Successful exploitation of this vulnerability may allow an attacker to ga...",
+    "source": "US-CERT",
+    "logo": "https://www.cisa.gov/favicon.ico",
+    "pub_date": "2025-05-27 12:00:00"
+  },
+  {
+    "title": "Gridcare thinks more than 100 GW of data center capacity is hiding in the grid",
+    "link": "https://techcrunch.com/2025/05/27/gridcare-thinks-more-than-100-gw-of-data-center-capacity-is-hiding-in-the-grid/",
+    "description": "Gridcare raised $13.3 million for its data platform that finds underutilized capacity on the electrical grid.",
+    "source": "TechCrunch AI",
+    "logo": "https://techcrunch.com/favicon.ico",
+    "pub_date": "2025-05-27 12:00:00"
+  },
+  {
+    "title": "The ChoiceJacking attack: stealing smartphone photos and data while charging via USB | Kaspersky official blog",
+    "link": "https://www.kaspersky.com/blog/data-theft-during-charging-choicejacking-protection/53497/",
+    "description": "USB data theft: a new method of hacking smartphones while charging emerges in 2025",
+    "source": "Kaspersky Daily",
+    "logo": "https://www.kaspersky.com/favicon.ico",
+    "pub_date": "2025-05-27 10:54:27"
   },
   {
     "title": "Word to the wise: Beware of fake Docusign emails",
@@ -1032,28 +1624,28 @@
     "pub_date": "2025-05-27 08:21:00"
   },
   {
-    "title": "31 Employee Motivation Ideas To Increase Engagement & Retention",
-    "link": "https://www.aihr.com/blog/employee-motivation-ideas/",
-    "description": "Motivated employees are a top driver of business success, with 83% of executives and 84% of employees agreeing that engagement and motivation are key to company performance. Factors like purpose, growth, autonomy, and recognition influence motivation. Understanding and supporting what drives your...",
-    "source": "AI in HR",
-    "logo": "https://www.aihr.com/favicon.ico",
-    "pub_date": "2025-05-27 07:48:32"
+    "title": "ISC Stormcast For Tuesday, May 27th, 2025 https://isc.sans.edu/podcastdetail/9466, (Tue, May 27th)",
+    "link": "https://isc.sans.edu/diary/rss/31982",
+    "description": "",
+    "source": "SANS Internet Storm Center",
+    "logo": "https://isc.sans.edu/favicon.ico",
+    "pub_date": "2025-05-27 02:00:03"
   },
   {
-    "title": "Multiples vulnérabilités dans les produits Mattermost (27 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0453/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "source": "CERT-FR",
-    "logo": "https://www.cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-27 00:00:00"
+    "title": "How scammers exploit genuine Microsoft business notifications",
+    "link": "https://www.kaspersky.com/blog/microsoft-365-purchase-email-scam/53493/",
+    "description": "How malicious actors exploit Microsoft business notifications by embedding their own contact details, and how you can protect yourself against this threat.",
+    "source": "Kaspersky Daily",
+    "logo": "https://www.kaspersky.com/favicon.ico",
+    "pub_date": "2025-05-26 16:08:20"
   },
   {
-    "title": "Multiples vulnérabilités dans les produits Mattermost (27 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0453/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "source": "CERT-FR Avis",
-    "logo": "https://cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-27 00:00:00"
+    "title": "TSMC Bets on Unorthodox Optical Tech",
+    "link": "https://spectrum.ieee.org/tsmc-microled-optical-interconnects",
+    "description": "In the race to an all-optical AI data center, a major player has now placed a bet on a different horse. Semiconductor manufacturing giant Taiwan Semiconductor Manufacturing Company ( TSMC) announced that it will work with Sunnyvale startup Avicena to produce microLED-based interconnects. The tech...",
+    "source": "IEEE Spectrum AI",
+    "logo": "https://spectrum.ieee.org/favicon.ico",
+    "pub_date": "2025-05-26 14:00:03"
   },
   {
     "title": "Simplifier la sécurité numérique à l’échelle : pourquoi les certificats SSL SAN sont devenus incontournables",
@@ -1064,19 +1656,59 @@
     "pub_date": "2025-05-26 13:42:42"
   },
   {
-    "title": "The New AI Mandate: Navigating Governance, Autonomy, and Disinformation in 2025",
-    "link": "https://www.aitimejournal.com/the-new-ai-mandate-navigating-governance-autonomy-and-disinformation/52868/",
-    "description": "As AI rapidly transitions from experimentation to infrastructure, its implications are no longer confined to labs or startups. In 2025, organizations must confront AI not just as a productivity lever, but as a strategic and often existential risk domain. Three AI-centered priorities now dominate ...",
-    "source": "AI Time Journal",
-    "logo": "https://www.aitimejournal.com/favicon.ico",
+    "title": "Opération majeure de démantèlement du malware DanaBot",
+    "link": "https://www.undernews.fr/malwares-virus-antivirus/operation-majeure-de-demantelement-du-malware-danabot.html",
+    "description": "Proofpoint vient d’annoncer une opération majeure de démantèlement du malware DanaBot, un outil cybercriminel sophistiqué utilisé depuis 2018, qui a infecté plus de 300 000 ordinateurs dans le monde et causé au moins 50 millions de dollars de dommages. Tribune – Une plainte pénale et un acte d’ac...",
+    "source": "UnderNews",
+    "logo": "https://www.undernews.fr/favicon.ico",
+    "pub_date": "2025-05-26 13:40:47"
+  },
+  {
+    "title": "ICYMI: A Look Back at Exposure Management Academy Highlights",
+    "link": "https://www.tenable.com/blog/icymi-a-look-back-at-exposure-management-academy-highlights",
+    "description": "Each Monday, the Tenable Exposure Management Academy provides the practical, real-world guidance you need to shift from vulnerability management to exposure management. This week, we look back on some highlights from the first couple of months of posts, including the broad view exposure managemen...",
+    "source": "Tenable Blog",
+    "logo": "https://fr.tenable.com/favicon.ico",
     "pub_date": "2025-05-26 13:00:00"
   },
   {
-    "title": "Bulletin d'actualité CERTFR-2025-ACT-022 (26 mai 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2025-ACT-022/",
-    "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-    "source": "CERT-FR",
-    "logo": "https://www.cert.ssi.gouv.fr/favicon.ico",
-    "pub_date": "2025-05-26 00:00:00"
+    "title": "Formalizing Embeddedness Failures in Universal Artificial Intelligence",
+    "link": "https://www.alignmentforum.org/posts/FSm92N8bcDujRZPMH/formalizing-embeddedness-failures-in-universal-artificial",
+    "description": "Published on May 26, 2025 12:36 PM GMT AIXI is a dualistic agent that can't work as an embedded agent... right? I couldn't find a solid formal proof of this claim, so I investigated it myself (with Marcus Hutter). It turns out there are some surprising positive and negative results to be derived ...",
+    "source": "AI Alignment Forum",
+    "logo": "https://www.alignmentforum.org/favicon.ico",
+    "pub_date": "2025-05-26 12:36:41"
+  },
+  {
+    "title": "52% of SOC Teams Are Overworked, New Report Shows",
+    "link": "https://www.securitymagazine.com/articles/101646-52-of-soc-teams-are-overworked-new-report-shows",
+    "description": "SOCs are overworked and struggling to manage alerts.",
+    "source": "Security Magazine",
+    "logo": "https://www.securitymagazine.com/favicon.ico",
+    "pub_date": "2025-05-26 12:00:00"
+  },
+  {
+    "title": "Audit de cybersécurité : Pourquoi l’ERP doit être en première ligne ?",
+    "link": "https://www.undernews.fr/reseau-securite/audit-de-cybersecurite-pourquoi-lerp-doit-etre-en-premiere-ligne.html",
+    "description": "À l’ère du numérique, la cybersécurité est devenue un enjeu stratégique pour toutes les entreprises, et les PME ne font pas exception. Pourtant, beaucoup sous-estiment encore la nécessité de sécuriser leur ERP, cet outil central qui gère leurs données les plus sensibles : finances, gestion des st...",
+    "source": "UnderNews",
+    "logo": "https://www.undernews.fr/favicon.ico",
+    "pub_date": "2025-05-26 09:36:46"
+  },
+  {
+    "title": "SentinelLabs alerte sur une nouvelle cybermenace qui utilise les CAPTCHA pour diffuser des malwares : « ClickFix »",
+    "link": "https://www.undernews.fr/malwares-virus-antivirus/sentinellabs-alerte-sur-une-nouvelle-cybermenace-qui-utilise-les-captcha-pour-diffuser-des-malwares-clickfix.html",
+    "description": "Cette nouvelle technique de cyberattaque opère et exploite la lassitude des consommateurs face aux vérifications anti-spam afin qu’ils exécutent, à leur insu, du code malveillant sur leurs appareils. Tribune – SentinelLabs, la division de recherche de SentinelOne, a identifié une nouvelle campagn...",
+    "source": "UnderNews",
+    "logo": "https://www.undernews.fr/favicon.ico",
+    "pub_date": "2025-05-26 08:16:54"
+  },
+  {
+    "title": "A week in security (May 19 &#8211; May 25)",
+    "link": "https://www.malwarebytes.com/blog/news/2025/05/a-week-in-security-may-19-may-25",
+    "description": "A list of topics we covered in the week of May 19 to May 25 of 2025",
+    "source": "Malwarebytes Labs",
+    "logo": "https://blog.malwarebytes.com/favicon.ico",
+    "pub_date": "2025-05-26 07:30:07"
   }
 ]
