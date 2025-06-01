@@ -1,28 +1,36 @@
-# CyberNews - Agrégateur RSS de Cybersécurité et IA
+# 🛡️ CyberNews - Agrégateur RSS de Cybersécurité
 
-## Description
-CyberNews est un script Python qui agrège automatiquement les dernières actualités en cybersécurité et en intelligence artificielle depuis plus de 100 sources RSS fiables. Le script envoie quotidiennement un résumé par email des articles les plus pertinents.
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
+</div>
 
-## Fonctionnalités
-- Agrégation de plus de 100 sources RSS en cybersécurité et IA
-- Filtrage des articles des 7 derniers jours
-- Nettoyage et formatage du contenu HTML
-- Envoi d'un email quotidien avec mise en page professionnelle
-- Support multilingue (français et anglais)
-- Gestion des erreurs et des flux RSS inaccessibles
-- Configuration flexible via variables d'environnement
+## 📝 Description
 
-## Prérequis
-- Python 3.7 ou supérieur
-- Compte email (Gmail, Outlook, etc.)
+CyberNews est un agrégateur RSS intelligent qui collecte et analyse les dernières actualités en cybersécurité et en intelligence artificielle depuis plus de 100 sources fiables. Le script envoie quotidiennement un résumé par email des articles les plus pertinents.
+
+## ✨ Fonctionnalités
+
+- 🔄 Agrégation de plus de 100 sources RSS fiables
+- 🎯 Filtrage intelligent des articles
+- 📧 Envoi quotidien par email
+- 🌍 Support multilingue (FR/EN)
+- 🔒 Gestion sécurisée des données sensibles
+- ⚡ Configuration flexible
+
+## 🚀 Prérequis
+
+- Python 3.8 ou supérieur
+- Compte email avec accès SMTP
 - Accès à un serveur SMTP
 
-## Installation
+## 📦 Installation
 
 1. Clonez le dépôt :
 ```bash
-git clone https://github.com/servais1983/CyberNews.git
-cd CyberNews
+git clone https://github.com/servais1983/Cybernews.git
+cd Cybernews
 ```
 
 2. Installez les dépendances :
@@ -30,103 +38,126 @@ cd CyberNews
 pip install -r requirements.txt
 ```
 
-3. Créez un fichier `.env` à la racine du projet avec les variables suivantes :
+3. Créez un fichier `.env` avec vos paramètres :
 ```env
-EMAIL_RECIPIENT=votre@email.com
-EMAIL_SENDER=votre@email.com
+EMAIL_SENDER=votre_email@exemple.com
 EMAIL_PASSWORD=votre_mot_de_passe
-SMTP_SERVER=smtp.office365.com
+EMAIL_RECIPIENT=destinataire@exemple.com
+SMTP_SERVER=smtp.exemple.com
 SMTP_PORT=587
-EMAIL_SUBJECT_PREFIX="Actualités en Cybersécurité - "
 ```
 
-## Utilisation
+## 💻 Utilisation
 
 ### Exécution manuelle
 ```bash
 python cybersec_rss_feed_enhanced.py
 ```
 
-### Exécution automatique (Linux/Unix)
-Pour exécuter le script quotidiennement à 8h00 :
+### Exécution automatique
+
+#### Windows
+```bash
+schtasks /create /tn "CyberNews" /tr "python C:\chemin\vers\cybersec_rss_feed_enhanced.py" /sc daily /st 08:00
+```
+
+#### Linux/Mac
 ```bash
 crontab -e
-```
-Ajoutez la ligne :
-```
-0 8 * * * /chemin/vers/python /chemin/vers/CyberNews/cybersec_rss_feed_enhanced.py
+# Ajoutez la ligne suivante :
+0 8 * * * /usr/bin/python3 /chemin/vers/cybersec_rss_feed_enhanced.py
 ```
 
-### Exécution automatique (Windows)
-Utilisez le Planificateur de tâches Windows pour créer une tâche quotidienne.
+## 📁 Structure du Projet
 
-## Structure du Projet
 ```
 CyberNews/
 ├── cybersec_rss_feed_enhanced.py  # Script principal
-├── requirements.txt               # Dépendances Python
+├── requirements.txt               # Dépendances
 ├── .env                          # Configuration (à créer)
+├── .gitignore                    # Fichiers ignorés par Git
+├── LICENSE                       # Licence MIT
 └── README.md                     # Documentation
 ```
 
-## Sources RSS
-Le script inclut des sources de :
-- CERTs et organisations gouvernementales
-- Éditeurs de sécurité majeurs
-- Équipes de recherche en sécurité
-- Fournisseurs de services de sécurité
-- Sources académiques et scientifiques
-- Sources d'actualités technologiques
-- Sources spécialisées en IA
+## 📰 Sources RSS
 
-## Personnalisation
+Le script agrège les actualités depuis plusieurs catégories de sources :
+
+### 🔒 Cybersécurité
+- Sources gouvernementales (ANSSI, CERT-FR, etc.)
+- Blogs de sécurité (SANS, Krebs on Security, etc.)
+- Médias spécialisés (Dark Reading, Security Week, etc.)
+
+### 🤖 Intelligence Artificielle
+- Blogs d'entreprises (Google AI, OpenAI, etc.)
+- Médias technologiques (MIT Technology Review, etc.)
+- Sources académiques (Nature, Science, etc.)
+
+### 🇫🇷 Sources Françaises
+- Médias IT (LeMagIT, ITespresso, etc.)
+- Institutions (CNIL, ANSSI, etc.)
+- Blogs spécialisés (Journal du Hack, etc.)
+
+## ⚙️ Personnalisation
 
 ### Ajouter une nouvelle source RSS
-Ajoutez une nouvelle entrée dans la liste `RSS_FEEDS` :
 ```python
-{
-    "name": "Nom de la Source",
+RSS_FEEDS.append({
+    "name": "Nom de la source",
     "url": "URL du flux RSS",
     "logo": "URL du logo",
     "max_articles": 5
-}
+})
 ```
 
 ### Modifier le format de l'email
-Le format de l'email peut être personnalisé en modifiant la fonction `format_email_content()`.
+Le format HTML est personnalisable dans la fonction `format_email_content()`.
 
-## Dépannage
+## 🔧 Dépannage
 
 ### Problèmes courants
+
 1. **Erreur de connexion SMTP**
-   - Vérifiez les paramètres SMTP dans le fichier `.env`
-   - Assurez-vous que le mot de passe est correct
-   - Vérifiez que le port n'est pas bloqué par votre pare-feu
+   - Vérifiez vos identifiants dans `.env`
+   - Assurez-vous que le serveur SMTP est accessible
 
 2. **Aucun article récupéré**
-   - Vérifiez votre connexion Internet
-   - Assurez-vous que les URLs des flux RSS sont valides
-   - Vérifiez les logs pour plus de détails
+   - Vérifiez la connectivité internet
+   - Validez les URLs des flux RSS
 
-### Logs
-Le script génère des logs détaillés dans la console. Pour les sauvegarder :
-```bash
-python cybersec_rss_feed_enhanced.py > logs.txt 2>&1
-```
+3. **Erreur d'encodage**
+   - Assurez-vous d'utiliser UTF-8
+   - Vérifiez les caractères spéciaux
 
-## Contribution
-Les contributions sont les bienvenues ! N'hésitez pas à :
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! Voici comment participer :
+
 1. Fork le projet
-2. Créer une branche pour votre fonctionnalité
-3. Commiter vos changements
-4. Pousser vers la branche
-5. Ouvrir une Pull Request
+2. Créez une branche (`git checkout -b feature/Amelioration`)
+3. Committez vos changements (`git commit -m 'Ajout d'une fonctionnalité'`)
+4. Poussez vers la branche (`git push origin feature/Amelioration`)
+5. Ouvrez une Pull Request
 
-## Licence
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+## 📄 Licence
 
-## Contact
-Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue sur GitHub.
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## Remerciements
-Merci à tous les contributeurs et aux sources RSS qui rendent ce projet possible. 
+## 📞 Contact
+
+Pour toute question ou suggestion :
+- Ouvrez une issue sur GitHub
+- Contactez-moi via [GitHub](https://github.com/servais1983)
+
+## 🙏 Remerciements
+
+- Tous les contributeurs
+- Les sources RSS qui partagent leurs actualités
+- La communauté open source
+
+---
+
+<div align="center">
+  <sub>Construit avec ❤️ par servais1983</sub>
+</div> 
