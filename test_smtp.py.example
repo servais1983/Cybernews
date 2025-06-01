@@ -1,0 +1,29 @@
+import smtplib
+import ssl
+from dotenv import load_dotenv
+import os
+
+# Charger les variables d'environnement
+load_dotenv()
+
+# Configuration
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 465
+EMAIL = "votre@email.com"  # À remplacer par votre email
+PASSWORD = os.getenv("EMAIL_PASSWORD")
+
+def test_smtp():
+    try:
+        print(f"Test de connexion SMTP vers {SMTP_SERVER}...")
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT, context=context) as server:
+            print(f"Tentative de connexion avec {EMAIL}")
+            server.login(EMAIL, PASSWORD)
+            print("✓ Connexion SMTP réussie!")
+            return True
+    except Exception as e:
+        print(f"✗ Erreur de connexion: {str(e)}")
+        return False
+
+if __name__ == "__main__":
+    test_smtp() 

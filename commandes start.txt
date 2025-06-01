@@ -1,0 +1,3 @@
+cd OneDrive\Images\Documents\CyberNews
+
+python cybersec_rss_feed_enhanced.py
