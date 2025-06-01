@@ -8,11 +8,11 @@
 
 ## 📝 Description
 
-CyberNews est un agrégateur RSS intelligent qui collecte et analyse les dernières actualités en cybersécurité et en intelligence artificielle depuis plus de 100 sources fiables. Le script envoie quotidiennement un résumé par email des articles les plus pertinents.
+CyberNews est un agrégateur RSS intelligent qui collecte et analyse les dernières actualités en cybersécurité et en intelligence artificielle depuis plus de 50 sources fiables. Le script envoie quotidiennement un résumé par email des articles les plus pertinents.
 
 ## ✨ Fonctionnalités
 
-- 🔄 Agrégation de plus de 100 sources RSS fiables
+- 🔄 Agrégation de plus de 50 sources RSS fiables
 - 🎯 Filtrage intelligent des articles
 - 📧 Envoi quotidien par email
 - 🌍 Support multilingue (FR/EN)
