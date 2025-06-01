@@ -1,3 +1,6 @@
+
+![image](cybernews.png)
+
 # 🛡️ CyberNews - Agrégateur RSS de Cybersécurité
 
 <div align="center">
