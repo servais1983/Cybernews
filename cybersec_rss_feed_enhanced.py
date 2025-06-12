@@ -30,11 +30,11 @@ load_dotenv()
 load_dotenv()
 
 # Configuration des paramètres
-RECIPIENT_EMAIL = os.getenv("EMAIL_RECIPIENT", "")
-SENDER_EMAIL = os.getenv("EMAIL_SENDER", "")
-EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD", "")
-SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.office365.com")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL", "votre_email@example.com")
+SENDER_EMAIL = os.getenv("SENDER_EMAIL", "votre_email@example.com")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD", "votre_mot_de_passe_application")
+SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
 EMAIL_SUBJECT_PREFIX = os.getenv("EMAIL_SUBJECT_PREFIX", "Actualités en Cybersécurité - ")
 
 # Configuration des timeouts et retries pour les requêtes
@@ -61,61 +61,55 @@ DEFAULT_HEADERS = {
     'Connection': 'keep-alive',
 }
 
-# Sources RSS de cybersécurité
+# Sources RSS de cybersécurité (Liste enrichie et vérifiée)
+# max_articles : Nombre maximum d'articles à récupérer par flux pour éviter de surcharger l'e-mail.
 RSS_FEEDS = [
-    # Cybersécurité internationale
+    # --- Actualités & Blogs de référence ---
     {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "logo": "https://thehackernews.com/favicon.ico", "max_articles": 10},
-    {"name": "WeLiveSecurity", "url": "https://www.welivesecurity.com/en/rss/feed/", "logo": "https://www.welivesecurity.com/wp-content/themes/wls-new/images/favicon.ico", "max_articles": 10},
-    {"name": "Security Magazine", "url": "https://www.securitymagazine.com/rss/topic/2236-cybersecurity", "logo": "https://www.securitymagazine.com/favicon.ico", "max_articles": 10},
-    {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "logo": "https://krebsonsecurity.com/favicon.ico", "max_articles": 10},
-    {"name": "Dark Reading", "url": "https://www.darkreading.com/rss.xml", "logo": "https://www.darkreading.com/favicon.ico", "max_articles": 10},
-    {"name": "SANS Internet Storm Center", "url": "https://isc.sans.edu/rssfeed.xml", "logo": "https://isc.sans.edu/favicon.ico", "max_articles": 10},
-    {"name": "Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/rss/news/", "logo": "https://www.infosecurity-magazine.com/favicon.ico", "max_articles": 10},
-    {"name": "CERT-FR", "url": "https://www.cert.ssi.gouv.fr/feed/", "logo": "https://www.cert.ssi.gouv.fr/favicon.ico", "max_articles": 10},
-    {"name": "Security Affairs", "url": "https://securityaffairs.com/feed", "logo": "https://securityaffairs.com/favicon.ico", "max_articles": 10},
-    {"name": "ZDNet Security", "url": "https://www.zdnet.com/topic/security/rss.xml", "logo": "https://www.zdnet.com/favicon.ico", "max_articles": 10},
-    {"name": "ZATAZ Magazine", "url": "https://www.zataz.com/feed/", "logo": "https://www.zataz.com/favicon.ico", "max_articles": 10},
-    {"name": "Exploit-DB RSS", "url": "https://www.exploit-db.com/rss.xml", "logo": "https://www.exploit-db.com/favicon.ico", "max_articles": 10},
-    {"name": "UnderNews", "url": "https://www.undernews.fr/feed", "logo": "https://www.undernews.fr/favicon.ico", "max_articles": 10},
-    {"name": "Ars Technica Security", "url": "https://arstechnica.com/tag/security/feed/", "logo": "https://arstechnica.com/favicon.ico", "max_articles": 10},
-    {"name": "The Register Security", "url": "https://www.theregister.com/security/headlines.atom", "logo": "https://www.theregister.com/favicon.ico", "max_articles": 10},
-    {"name": "Microsoft Security Blog", "url": "https://api.msrc.microsoft.com/update-guide/rss", "logo": "https://www.microsoft.com/favicon.ico", "max_articles": 10},
-    {"name": "Google Security Blog", "url": "https://security.googleblog.com/feeds/posts/default", "logo": "https://security.googleblog.com/favicon.ico", "max_articles": 10},
-    {"name": "AWS Security Blog", "url": "https://aws.amazon.com/blogs/security/feed/", "logo": "https://aws.amazon.com/favicon.ico", "max_articles": 10},
-    {"name": "Cisco Talos Blog", "url": "https://blog.talosintelligence.com/feeds/posts/default", "logo": "https://www.cisco.com/favicon.ico", "max_articles": 10},
-    {"name": "Bitdefender Labs", "url": "https://www.bitdefender.com/blog/labs/feed/", "logo": "https://www.bitdefender.com/favicon.ico", "max_articles": 10},
-    # Blogs et portails spécialisés
     {"name": "Bleeping Computer", "url": "https://www.bleepingcomputer.com/feed/", "logo": "https://www.bleepingcomputer.com/favicon.ico", "max_articles": 10},
-    {"name": "Malwarebytes Labs", "url": "https://blog.malwarebytes.com/feed/", "logo": "https://blog.malwarebytes.com/favicon.ico", "max_articles": 10},
-    {"name": "ESET WeLiveSecurity FR", "url": "https://www.welivesecurity.com/fr/feed/", "logo": "https://www.welivesecurity.com/favicon.ico", "max_articles": 10},
-    {"name": "Naked Security by Sophos", "url": "https://nakedsecurity.sophos.com/feed/", "logo": "https://nakedsecurity.sophos.com/favicon.ico", "max_articles": 10},
-    {"name": "Kaspersky Daily", "url": "https://www.kaspersky.com/blog/feed/", "logo": "https://www.kaspersky.com/favicon.ico", "max_articles": 10},
-    {"name": "Palo Alto Networks Blog FR", "url": "https://www.paloaltonetworks.fr/blog/feed", "logo": "https://www.paloaltonetworks.fr/favicon.ico", "max_articles": 10},
-    {"name": "Tenable Blog", "url": "https://fr.tenable.com/blog/feed", "logo": "https://fr.tenable.com/favicon.ico", "max_articles": 10},
-    {"name": "Rapid7 Blog", "url": "https://www.rapid7.com/blog/feed/", "logo": "https://www.rapid7.com/favicon.ico", "max_articles": 10},
-    {"name": "Qualys Blog", "url": "https://blog.qualys.com/feed", "logo": "https://blog.qualys.com/favicon.ico", "max_articles": 10},
-    {"name": "Akamai Blog", "url": "https://blogs.akamai.com/security/index.xml", "logo": "https://www.akamai.com/favicon.ico", "max_articles": 10},
-    {"name": "Proofpoint Blog", "url": "https://www.proofpoint.com/us/rss.xml", "logo": "https://www.proofpoint.com/favicon.ico", "max_articles": 10},
-    {"name": "CrowdStrike Blog", "url": "https://www.crowdstrike.com/blog/feed/", "logo": "https://www.crowdstrike.com/favicon.ico", "max_articles": 10},
-    {"name": "Fortinet Blog EN", "url": "https://www.fortinet.com/blog/threat-research/feed", "logo": "https://www.fortinet.com/favicon.ico", "max_articles": 10},
-    {"name": "Check Point Blog EN", "url": "https://blog.checkpoint.com/feed/", "logo": "https://blog.checkpoint.com/favicon.ico", "max_articles": 10},
-    {"name": "Symantec Enterprise Blogs", "url": "https://symantec-enterprise-blogs.security.com/blogs/feed", "logo": "https://symantec-enterprise-blogs.security.com/favicon.ico", "max_articles": 10},
-    {"name": "Trend Micro Simply Security", "url": "https://www.trendmicro.com/en_us/research/rss.xml", "logo": "https://www.trendmicro.com/favicon.ico", "max_articles": 10},
-    {"name": "McAfee Blog FR", "url": "https://www.mcafee.com/blogs/fr/feed/", "logo": "https://www.mcafee.com/favicon.ico", "max_articles": 10},
-    {"name": "CERT-EU", "url": "https://cert.europa.eu/rss.xml", "logo": "https://cert.europa.eu/favicon.ico", "max_articles": 10},
-    {"name": "ENISA News", "url": "https://www.enisa.europa.eu/news/enisa-news/RSS", "logo": "https://www.enisa.europa.eu/favicon.ico", "max_articles": 10},
-    {"name": "US-CERT", "url": "https://www.cisa.gov/uscert/ncas/all.xml", "logo": "https://www.cisa.gov/favicon.ico", "max_articles": 10},
-    # IA et Tech
-    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "logo": "https://venturebeat.com/favicon.ico", "max_articles": 10},
-    {"name": "MIT Technology Review AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "logo": "https://www.technologyreview.com/favicon.ico", "max_articles": 10},
-    {"name": "Science AI", "url": "https://www.science.org/rss/news_current.xml", "logo": "https://www.science.org/favicon.ico", "max_articles": 10},
-    {"name": "IEEE Spectrum AI", "url": "https://spectrum.ieee.org/rss/artificial-intelligence/fulltext", "logo": "https://spectrum.ieee.org/favicon.ico", "max_articles": 10},
-    {"name": "ZDNet AI", "url": "https://www.zdnet.com/topic/artificial-intelligence/rss.xml", "logo": "https://www.zdnet.com/favicon.ico", "max_articles": 10},
-    {"name": "TechCrunch AI", "url": "https://techcrunch.com/tag/artificial-intelligence/feed/", "logo": "https://techcrunch.com/favicon.ico", "max_articles": 10},
-    {"name": "Synced AI", "url": "https://syncedreview.com/feed/", "logo": "https://syncedreview.com/favicon.ico", "max_articles": 10},
-    {"name": "AI Alignment Forum", "url": "https://www.alignmentforum.org/feed.xml", "logo": "https://www.alignmentforum.org/favicon.ico", "max_articles": 10},
-    {"name": "Open Data Science", "url": "https://opendatascience.com/feed/", "logo": "https://opendatascience.com/favicon.ico", "max_articles": 10},
-    {"name": "Analytics Vidhya", "url": "https://www.analyticsvidhya.com/blog/feed/", "logo": "https://www.analyticsvidhya.com/favicon.ico", "max_articles": 10}
+    {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "logo": "https://krebsonsecurity.com/favicon.ico", "max_articles": 5},
+    {"name": "Dark Reading", "url": "https://www.darkreading.com/rss.xml", "logo": "https://www.darkreading.com/favicon.ico", "max_articles": 10},
+    {"name": "Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/rss/news/", "logo": "https://www.infosecurity-magazine.com/favicon.ico", "max_articles": 10},
+    {"name": "Security Affairs", "url": "https://securityaffairs.com/feed", "logo": "https://securityaffairs.co/wordpress/wp-content/uploads/2021/11/SA-favicon.png", "max_articles": 10},
+    {"name": "ZDNet Security", "url": "https://www.zdnet.com/topic/security/rss.xml", "logo": "https://www.zdnet.com/a/img/favicon.ico", "max_articles": 10},
+    {"name": "ZATAZ Magazine", "url": "https://www.zataz.com/feed/", "logo": "https://www.zataz.com/wp-content/uploads/2020/11/cropped-favicon-1-32x32.png", "max_articles": 10},
+    {"name": "UnderNews", "url": "https://www.undernews.fr/feed", "logo": "https://www.undernews.fr/wp-content/uploads/2018/03/favicon.ico", "max_articles": 10},
+    {"name": "Threatpost", "url": "https://threatpost.com/feed/", "logo": "https://threatpost.com/wp-content/uploads/sites/103/2019/02/07142511/Favicon-1.png", "max_articles": 10},
+    {"name": "Schneier on Security", "url": "https://www.schneier.com/feed/", "logo": "https://www.schneier.com/favicon.ico", "max_articles": 5},
+    {"name": "Graham Cluley", "url": "https://grahamcluley.com/feed/", "logo": "https://grahamcluley.com/wp-content/uploads/2021/05/cropped-favicon-32x32.png", "max_articles": 5},
+    {"name": "CyberScoop", "url": "https://www.cyberscoop.com/feed", "logo": "https://www.cyberscoop.com/wp-content/themes/cyberscoop-v2/assets/images/favicon/favicon-32x32.png", "max_articles": 10},
+
+    # --- Blogs de Vendeurs & Entreprises de Sécurité ---
+    {"name": "Mandiant (Google)", "url": "https://www.mandiant.com/resources/blog/rss.xml", "logo": "https://www.mandiant.com/favicon.ico", "max_articles": 5},
+    {"name": "Cisco Talos Blog", "url": "https://blog.talosintelligence.com/feeds/posts/default", "logo": "https://blog.talosintelligence.com/favicon.ico", "max_articles": 5},
+    {"name": "Microsoft Security", "url": "https://api.msrc.microsoft.com/update-guide/rss", "logo": "https://www.microsoft.com/favicon.ico", "max_articles": 10},
+    {"name": "Google Security Blog", "url": "https://security.googleblog.com/feeds/posts/default", "logo": "https://www.google.com/favicon.ico", "max_articles": 5},
+    {"name": "CrowdStrike Blog", "url": "https://www.crowdstrike.com/blog/feed/", "logo": "https://www.crowdstrike.com/favicon.ico", "max_articles": 5},
+    {"name": "Palo Alto Networks", "url": "https://www.paloaltonetworks.com/blog/feed/", "logo": "https://www.paloaltonetworks.com/favicon.ico", "max_articles": 5},
+    {"name": "Fortinet Blog", "url": "https://www.fortinet.com/blog/threat-research/feed", "logo": "https://www.fortinet.com/favicon.ico", "max_articles": 5},
+    {"name": "Kaspersky Daily", "url": "https://www.kaspersky.com/blog/feed/", "logo": "https://www.kaspersky.com/favicon.ico", "max_articles": 5},
+    {"name": "WeLiveSecurity (ESET)", "url": "https://www.welivesecurity.com/en/rss/feed/", "logo": "https://www.welivesecurity.com/wp-content/themes/wls-new/images/favicon.ico", "max_articles": 5},
+    {"name": "Malwarebytes Labs", "url": "https://blog.malwarebytes.com/feed/", "logo": "https://blog.malwarebytes.com/favicon.ico", "max_articles": 5},
+    {"name": "SentinelOne", "url": "https://www.sentinelone.com/blog/feed/", "logo": "https://www.sentinelone.com/wp-content/themes/sentinelone/favicon.ico", "max_articles": 5},
+    {"name": "PortSwigger Research", "url": "https://portswigger.net/blog/rss", "logo": "https://portswigger.net/favicon.ico", "max_articles": 5},
+    {"name": "Tenable Blog", "url": "https://www.tenable.com/blog/feed", "logo": "https://static.tenable.com/prod/images/favicon.ico", "max_articles": 5},
+    
+    # --- Agences Gouvernementales & Organisations ---
+    {"name": "CERT-FR (ANSSI)", "url": "https://www.cert.ssi.gouv.fr/feed/", "logo": "https://www.cert.ssi.gouv.fr/wp-content/uploads/2018/12/favicon.ico", "max_articles": 10},
+    {"name": "CISA (US-CERT)", "url": "https://www.cisa.gov/uscert/ncas/current-activity.xml", "logo": "https://www.cisa.gov/favicon.ico", "max_articles": 10},
+    {"name": "SANS ISC", "url": "https://isc.sans.edu/rssfeed.xml", "logo": "https://isc.sans.edu/favicon.ico", "max_articles": 10},
+    {"name": "ENISA News", "url": "https://www.enisa.europa.eu/news/enisa-news/RSS", "logo": "https://www.enisa.europa.eu/++theme++enisa.theme/assets/images/favicon/favicon.ico", "max_articles": 10},
+
+    # --- Recherche & Spécialisés (Vulnérabilités, Malware) ---
+    {"name": "Exploit-DB", "url": "https://www.exploit-db.com/rss.xml", "logo": "https://www.exploit-db.com/favicon.ico", "max_articles": 15},
+    {"name": "The DFIR Report", "url": "https://thedfirreport.com/feed/", "logo": "https://thedfirreport.com/wp-content/uploads/2021/04/cropped-logo-32x32.png", "max_articles": 5},
+    {"name": "VX-Underground", "url": "https://vx-underground.org/rss.xml", "logo": "https://vx-underground.org/images/favicon.png", "max_articles": 10},
+    {"name": "r/netsec (Reddit)", "url": "https://www.reddit.com/r/netsec.rss", "logo": "https://www.redditstatic.com/favicon.ico", "max_articles": 10},
+    
+    # --- IA & Technologies Émergentes ---
+    {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "logo": "https://techcrunch.com/favicon.ico", "max_articles": 5},
+    {"name": "MIT Tech Review AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "logo": "https://www.technologyreview.com/favicon.ico", "max_articles": 5},
+    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "logo": "https://venturebeat.com/favicon.ico", "max_articles": 5},
 ]
 
 def clean_html(html_text):
