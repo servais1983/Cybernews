@@ -1,166 +1,144 @@
 
 ![image](cybernews.png)
 
-# 🛡️ CyberNews - Agrégateur RSS de Cybersécurité
+# 🛡️ CyberNews - Agrégateur RSS intelligent de Cybersécurité
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue" alt="Python Version">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/Sources-55%2B-orange" alt="Sources">
   <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
 </div>
 
 ## 📝 Description
 
-CyberNews est un agrégateur RSS intelligent qui collecte et analyse les dernières actualités en cybersécurité et en intelligence artificielle depuis plus de 50 sources fiables. Le script envoie quotidiennement un résumé par email des articles les plus pertinents.
+CyberNews collecte en parallèle les actualités de **plus de 55 sources fiables** (médias spécialisés, chercheurs, éditeurs de sécurité, CERT et agences gouvernementales), puis génère un **digest HTML intelligent** envoyé par email et sauvegardé localement.
 
-## ✨ Fonctionnalités
+Ce qui le rend différent d'un simple agrégateur :
 
-- 🔄 Agrégation de plus de 50 sources RSS fiables
-- 🎯 Filtrage intelligent des articles
-- 📧 Envoi quotidien par email
-- 🌍 Support multilingue (FR/EN)
-- 🔒 Gestion sécurisée des données sensibles
-- ⚡ Configuration flexible
+- 🧠 **Score de pertinence** : chaque article est noté selon des signaux forts (zero-day, exploitation active, RCE, ransomware, fuite de données, CVE, KEV...), la fraîcheur et la fiabilité de la source
+- 🔥 **Section "À la une"** : les 10 articles les plus critiques du jour en tête de digest
+- 🧹 **Déduplication** : la même histoire couverte par 5 médias n'apparaît qu'une fois (la version la mieux notée est conservée)
+- 🔗 **Détection des CVE** : les identifiants CVE sont extraits et reliés automatiquement à la base [NVD](https://nvd.nist.gov/)
+- ⚡ **Récupération parallèle** : les 55+ flux sont interrogés en quelques secondes (avec retry et timeout)
+- 🤖 **Zéro infrastructure** : un workflow GitHub Actions envoie le digest chaque matin — aucun PC allumé, aucun cron à configurer
+- 🔒 **Sécurisé** : secrets dans `.env` ou GitHub Secrets, contenu externe échappé dans le HTML
 
-## 🚀 Prérequis
+## 🚀 Démarrage rapide (en local)
 
-- Python 3.8 ou supérieur
-- Compte email avec accès SMTP
-- Accès à un serveur SMTP
-
-## 📦 Installation
-
-1. Clonez le dépôt :
 ```bash
 git clone https://github.com/servais1983/Cybernews.git
 cd Cybernews
-```
-
-2. Installez les dépendances :
-```bash
 pip install -r requirements.txt
-```
 
-3. Créez un fichier `.env` avec vos paramètres :
-```env
-EMAIL_SENDER=votre_email@exemple.com
-EMAIL_PASSWORD=votre_mot_de_passe
-EMAIL_RECIPIENT=destinataire@exemple.com
-SMTP_SERVER=smtp.exemple.com
-SMTP_PORT=587
-```
+# Configuration
+cp .env.example .env   # puis éditez .env avec vos identifiants SMTP
 
-## 💻 Utilisation
+# Vérifiez la connexion SMTP
+python cybersec_rss_feed_enhanced.py --test-smtp
 
-### Exécution manuelle
-```bash
+# Générez un digest sans envoyer d'email (ouvre ensuite digest.html)
+python cybersec_rss_feed_enhanced.py --dry-run
+
+# Digest + envoi par email
 python cybersec_rss_feed_enhanced.py
 ```
 
-### Exécution automatique
+> 💡 **Gmail** : utilisez un [mot de passe d'application](https://myaccount.google.com/apppasswords), pas votre mot de passe principal.
 
-#### Windows
+## ☁️ Exécution automatique avec GitHub Actions (recommandé)
+
+Le dépôt inclut un workflow ([`.github/workflows/daily-digest.yml`](.github/workflows/daily-digest.yml)) qui envoie le digest **tous les jours à 6h00 UTC**, sans aucune machine à maintenir :
+
+1. Forkez ou clonez ce dépôt sur votre compte GitHub
+2. Dans **Settings → Secrets and variables → Actions**, ajoutez les secrets :
+   - `SENDER_EMAIL`, `EMAIL_PASSWORD`, `RECIPIENT_EMAIL`, `SMTP_SERVER`, `SMTP_PORT`
+3. Activez les workflows dans l'onglet **Actions**
+
+Vous pouvez aussi lancer le workflow manuellement (**Run workflow**) en choisissant la fenêtre de jours, ou en mode `dry-run`. Le digest HTML est publié en artefact à chaque exécution.
+
+## 💻 Options de la ligne de commande
+
+| Option | Description |
+|---|---|
+| `--days N` | Fenêtre de récupération en jours (défaut : 2, accepte les décimales) |
+| `--top N` | Nombre d'articles dans la section "À la une" (défaut : 10) |
+| `--max-per-feed N` | Nombre maximum d'articles par flux (défaut : 15) |
+| `--output FICHIER` | Fichier de sortie du digest HTML (défaut : `digest.html`) |
+| `--dry-run` | Génère le digest sans envoyer d'email |
+| `--test-smtp` | Teste uniquement la connexion SMTP |
+| `--list-feeds` | Liste les sources configurées |
+
+### Exécution planifiée en local (alternative à GitHub Actions)
+
 ```bash
-schtasks /create /tn "CyberNews" /tr "python C:\chemin\vers\cybersec_rss_feed_enhanced.py" /sc daily /st 08:00
+# Linux/Mac : crontab -e
+0 8 * * * cd /chemin/vers/Cybernews && /usr/bin/python3 cybersec_rss_feed_enhanced.py --days 1
 ```
 
-#### Linux/Mac
-```bash
-crontab -e
-# Ajoutez la ligne suivante :
-0 8 * * * /usr/bin/python3 /chemin/vers/cybersec_rss_feed_enhanced.py
+```powershell
+# Windows
+schtasks /create /tn "CyberNews" /tr "python C:\chemin\vers\cybersec_rss_feed_enhanced.py --days 1" /sc daily /st 08:00
 ```
 
-## 📁 Structure du Projet
+## ⚙️ Configuration (`.env`)
 
+```env
+SENDER_EMAIL=votre_email@gmail.com
+EMAIL_PASSWORD=votre_mot_de_passe_application
+RECIPIENT_EMAIL=destinataire@example.com
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=465          # 465 = SSL, 587 = STARTTLS (les deux sont supportés)
+DAYS_LOOKBACK=2        # optionnel
 ```
-CyberNews/
-├── cybersec_rss_feed_enhanced.py  # Script principal
-├── requirements.txt               # Dépendances
-├── .env                          # Configuration (à créer)
-├── .gitignore                    # Fichiers ignorés par Git
-├── LICENSE                       # Licence MIT
-└── README.md                     # Documentation
-```
 
-## 📰 Sources RSS
+Les anciens noms `EMAIL_SENDER` / `EMAIL_RECIPIENT` restent acceptés pour compatibilité.
 
-Le script agrège les actualités depuis plusieurs catégories de sources :
+## 📰 Sources (55+)
 
-### 🔒 Cybersécurité
-- Sources gouvernementales (ANSSI, CERT-FR, etc.)
-- Blogs de sécurité (SANS, Krebs on Security, etc.)
-- Médias spécialisés (Dark Reading, Security Week, etc.)
+| Catégorie | Exemples |
+|---|---|
+| 📰 Actualités | The Hacker News, Bleeping Computer, Krebs on Security, The Record, SecurityWeek, Ars Technica, Wired... |
+| 🇫🇷 Sources françaises | ZATAZ, UnderNews, Le Monde Informatique, CNIL |
+| 🔬 Recherche & éditeurs | Project Zero, Talos, Unit 42, Mandiant, MSRC, Securelist, Check Point Research, The DFIR Report, PortSwigger... |
+| 🏛️ CERT & gouvernemental | CERT-FR (alertes, avis, actualités), CISA, NCSC UK, SANS ISC |
+| 💥 Vulnérabilités & exploits | Zero Day Initiative, Exploit-DB, Full Disclosure, r/netsec |
+| 🤖 IA & émergent | OpenAI, Google AI, TechCrunch AI, MIT Tech Review |
 
-### 🤖 Intelligence Artificielle
-- Blogs d'entreprises (Google AI, OpenAI, etc.)
-- Médias technologiques (MIT Technology Review, etc.)
-- Sources académiques (Nature, Science, etc.)
+La liste complète : `python cybersec_rss_feed_enhanced.py --list-feeds`
 
-### 🇫🇷 Sources Françaises
-- Médias IT (LeMagIT, ITespresso, etc.)
-- Institutions (CNIL, ANSSI, etc.)
-- Blogs spécialisés (Journal du Hack, etc.)
+### Ajouter une source
 
-## ⚙️ Personnalisation
-
-### Ajouter une nouvelle source RSS
 ```python
 RSS_FEEDS.append({
     "name": "Nom de la source",
-    "url": "URL du flux RSS",
-    "logo": "URL du logo",
-    "max_articles": 5
+    "url": "https://exemple.com/feed/",
+    "category": "Actualités",
+    "weight": 1,   # bonus de score pour les sources à haut signal (0 à 4)
 })
 ```
 
-### Modifier le format de l'email
-Le format HTML est personnalisable dans la fonction `format_email_content()`.
-
 ## 🔧 Dépannage
 
-### Problèmes courants
-
-1. **Erreur de connexion SMTP**
-   - Vérifiez vos identifiants dans `.env`
-   - Assurez-vous que le serveur SMTP est accessible
-
-2. **Aucun article récupéré**
-   - Vérifiez la connectivité internet
-   - Validez les URLs des flux RSS
-
-3. **Erreur d'encodage**
-   - Assurez-vous d'utiliser UTF-8
-   - Vérifiez les caractères spéciaux
+1. **Erreur de connexion SMTP** — lancez `python cybersec_rss_feed_enhanced.py --test-smtp` ; vérifiez le mot de passe d'application et le port (465 ou 587)
+2. **Peu d'articles** — augmentez la fenêtre avec `--days 7`
+3. **Un flux est en échec** — les flux indisponibles sont ignorés et listés en fin d'exécution ; le digest est généré quand même
 
 ## 🤝 Contribution
 
-Les contributions sont les bienvenues ! Voici comment participer :
-
 1. Fork le projet
 2. Créez une branche (`git checkout -b feature/Amelioration`)
-3. Committez vos changements (`git commit -m 'Ajout d'une fonctionnalité'`)
-4. Poussez vers la branche (`git push origin feature/Amelioration`)
-5. Ouvrez une Pull Request
+3. Committez vos changements
+4. Ouvrez une Pull Request
+
+Les ajouts de sources RSS fiables sont particulièrement bienvenus !
 
 ## 📄 Licence
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-## 📞 Contact
-
-Pour toute question ou suggestion :
-- Ouvrez une issue sur GitHub
-- Contactez-moi via [GitHub](https://github.com/servais1983)
-
-## 🙏 Remerciements
-
-- Tous les contributeurs
-- Les sources RSS qui partagent leurs actualités
-- La communauté open source
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE).
 
 ---
 
 <div align="center">
   <sub>Construit avec ❤️ par servais1983</sub>
-</div> 
+</div>

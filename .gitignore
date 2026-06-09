@@ -44,4 +44,8 @@ Thumbs.db
 *.swo
 
 # Fichiers sensibles
-test_smtp.py 
+test_smtp.py
+
+# Sorties générées par le script
+digest.html
+latest_articles.json 

@@ -1,0 +1,51 @@
+name: Digest quotidien CyberNews
+
+on:
+  schedule:
+    # Tous les jours à 06h00 UTC (08h00 Paris en été, 07h00 en hiver)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Fenêtre de récupération (jours)"
+        default: "1"
+      dry_run:
+        description: "Générer le digest sans envoyer d'email"
+        type: boolean
+        default: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Générer et envoyer le digest
+        env:
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        run: |
+          python cybersec_rss_feed_enhanced.py \
+            --days "${{ github.event.inputs.days || '1' }}" \
+            ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
+
+      - name: Publier le digest en artefact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-${{ github.run_id }}
+          path: |
+            digest.html
+            latest_articles.json
+          retention-days: 14
