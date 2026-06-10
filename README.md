@@ -30,42 +30,58 @@ Ce qui le rend unique :
 
 | Méthode | Pour qui | Effort |
 |---|---|---|
-| ☁️ **GitHub Actions** (recommandé) | digest quotidien automatique, aucune machine à maintenir | 5 min de config, une seule fois |
-| 💻 **Local, à la demande** | tester, ou recevoir le digest quand vous voulez | 2 min |
+| 🖱️ **`start.bat` / `start.sh`** (le plus simple) | un double-clic, le lanceur s'occupe de tout | 0 min |
+| ☁️ **GitHub Actions** (recommandé pour l'automatique) | digest quotidien, aucune machine à maintenir | 5 min de config, une seule fois |
 | ⏰ **Local, planifié** | cron / Planificateur Windows si vous préférez votre machine | 5 min |
 
-## 🚀 Démarrage rapide (en local)
+## 🖱️ Lancement en un clic (`start.bat` / `start.sh`)
 
-**1. Installer** (Python 3.9+ requis) :
+Le moyen le plus simple : un lanceur tout-en-un qui **s'occupe de tout** — il vérifie Python, crée l'environnement virtuel, installe les dépendances, vous fait remplir la configuration à la première utilisation, puis affiche un menu.
+
+**Windows** — double-cliquez sur **`start.bat`** (ou lancez-le dans un terminal).
+
+**Linux / Mac** :
+
+```bash
+./start.sh
+```
+
+```
+ ============= CyberNews =============
+  [1] Tester la connexion SMTP
+  [2] Aperçu sans envoi (ouvre le digest dans le navigateur)
+  [3] Générer et ENVOYER le digest
+  [4] Vérifier la santé des sources RSS
+  [5] Modifier la configuration (.env)
+  [6] Quitter
+ =====================================
+```
+
+À la première utilisation, le lanceur copie `.env.example` vers `.env` et l'ouvre dans l'éditeur : remplissez la section Email, enregistrez, fermez — c'est prêt. L'option [2] ouvre automatiquement le digest dans votre navigateur.
+
+> 💡 **Gmail** : utilisez un [mot de passe d'application](https://myaccount.google.com/apppasswords), pas votre mot de passe principal.
+>
+> Seul prérequis : [Python 3.9+](https://www.python.org/downloads/) (sur Windows, cochez *« Add Python to PATH »* à l'installation).
+
+## 🚀 Démarrage manuel (alternative en ligne de commande)
 
 ```bash
 git clone https://github.com/servais1983/Cybernews.git
 cd Cybernews
 
-# Recommandé : environnement virtuel
 python3 -m venv venv
 source venv/bin/activate        # Windows : venv\Scripts\activate
-
 pip install -r requirements.txt
-```
 
-**2. Configurer** — copiez le modèle puis remplissez au minimum la section Email :
-
-```bash
 cp .env.example .env            # Windows : copy .env.example .env
-```
+# ... éditez .env (au minimum la section Email) ...
 
-> 💡 **Gmail** : utilisez un [mot de passe d'application](https://myaccount.google.com/apppasswords), pas votre mot de passe principal.
-
-**3. Lancer** :
-
-```bash
 python cybersec_rss_feed_enhanced.py --test-smtp   # ① vérifie la config SMTP
 python cybersec_rss_feed_enhanced.py --dry-run     # ② digest sans envoi → ouvrez digest.html
 python cybersec_rss_feed_enhanced.py               # ③ digest + envoi réel
 ```
 
-C'est tout : sans aucune option, le script récupère les 55+ sources, déduplique, score, enrichit (si les clés optionnelles sont définies) et envoie l'email.
+Sans aucune option, le script récupère les 55+ sources, déduplique, score, enrichit (si les clés optionnelles sont définies) et envoie l'email.
 
 ### Exécution planifiée en local (alternative à GitHub Actions)
 
@@ -184,6 +200,7 @@ Les fonctions de scoring, déduplication, filtrage, historique et rendu sont cou
 ```
 Cybernews/
 ├── cybersec_rss_feed_enhanced.py   # Script principal (tout le pipeline)
+├── start.bat / start.sh            # Lanceurs tout-en-un (Windows / Linux-Mac)
 ├── requirements.txt                # Dépendances d'exécution
 ├── requirements-dev.txt            # Dépendances de test (pytest)
 ├── .env.example                    # Modèle de configuration commenté
