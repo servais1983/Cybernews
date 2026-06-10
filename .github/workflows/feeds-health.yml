@@ -1,0 +1,26 @@
+name: Santé des sources RSS
+
+on:
+  schedule:
+    # Tous les lundis à 07h00 UTC
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      # Échoue (et notifie) si au moins une source ne répond plus,
+      # pour détecter les flux morts avant qu'ils ne disparaissent en silence.
+      - name: Vérifier tous les flux
+        run: python cybersec_rss_feed_enhanced.py --check-feeds
