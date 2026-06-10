@@ -26,21 +26,58 @@ Ce qui le rend unique :
 - ⚡ **Rapide et poli** : récupération parallèle des 55+ flux avec cache HTTP conditionnel (ETag/Last-Modified)
 - 🤖 **Zéro infrastructure** : tout tourne dans GitHub Actions (digest quotidien, CI, surveillance hebdomadaire de la santé des sources)
 
+## 🚦 Trois façons de le lancer
+
+| Méthode | Pour qui | Effort |
+|---|---|---|
+| ☁️ **GitHub Actions** (recommandé) | digest quotidien automatique, aucune machine à maintenir | 5 min de config, une seule fois |
+| 💻 **Local, à la demande** | tester, ou recevoir le digest quand vous voulez | 2 min |
+| ⏰ **Local, planifié** | cron / Planificateur Windows si vous préférez votre machine | 5 min |
+
 ## 🚀 Démarrage rapide (en local)
+
+**1. Installer** (Python 3.9+ requis) :
 
 ```bash
 git clone https://github.com/servais1983/Cybernews.git
 cd Cybernews
+
+# Recommandé : environnement virtuel
+python3 -m venv venv
+source venv/bin/activate        # Windows : venv\Scripts\activate
+
 pip install -r requirements.txt
+```
 
-cp .env.example .env   # puis éditez .env (au minimum la section Email)
+**2. Configurer** — copiez le modèle puis remplissez au minimum la section Email :
 
-python cybersec_rss_feed_enhanced.py --test-smtp   # vérifie la config SMTP
-python cybersec_rss_feed_enhanced.py --dry-run     # digest sans envoi → digest.html
-python cybersec_rss_feed_enhanced.py               # digest + diffusion
+```bash
+cp .env.example .env            # Windows : copy .env.example .env
 ```
 
 > 💡 **Gmail** : utilisez un [mot de passe d'application](https://myaccount.google.com/apppasswords), pas votre mot de passe principal.
+
+**3. Lancer** :
+
+```bash
+python cybersec_rss_feed_enhanced.py --test-smtp   # ① vérifie la config SMTP
+python cybersec_rss_feed_enhanced.py --dry-run     # ② digest sans envoi → ouvrez digest.html
+python cybersec_rss_feed_enhanced.py               # ③ digest + envoi réel
+```
+
+C'est tout : sans aucune option, le script récupère les 55+ sources, déduplique, score, enrichit (si les clés optionnelles sont définies) et envoie l'email.
+
+### Exécution planifiée en local (alternative à GitHub Actions)
+
+```bash
+# Linux/Mac : crontab -e, puis ajoutez :
+0 8 * * * cd /chemin/vers/Cybernews && ./venv/bin/python cybersec_rss_feed_enhanced.py --days 1
+```
+
+```powershell
+# Windows (PowerShell) :
+schtasks /create /tn "CyberNews" /tr "C:\chemin\vers\Cybernews\venv\Scripts\python.exe C:\chemin\vers\Cybernews\cybersec_rss_feed_enhanced.py --days 1" /sc daily /st 08:00
+```
 
 ## ☁️ Exécution automatique avec GitHub Actions (recommandé)
 
@@ -52,15 +89,29 @@ Trois workflows sont inclus :
 | `ci.yml` | push / PR | lance la suite de tests |
 | `feeds-health.yml` | tous les lundis | vérifie que chaque source répond encore (détecte les flux morts) |
 
-**Mise en place :**
+**Mise en place (une seule fois, ~5 minutes) :**
 
-1. Forkez ou clonez ce dépôt sur votre compte GitHub
-2. Dans **Settings → Secrets and variables → Actions**, ajoutez les *secrets* :
-   - obligatoires : `SENDER_EMAIL`, `EMAIL_PASSWORD`, `RECIPIENT_EMAIL`, `SMTP_SERVER`, `SMTP_PORT`
-   - optionnels : `ANTHROPIC_API_KEY` (synthèse IA), `NVD_API_KEY` (CVSS plus rapide), `DISCORD_WEBHOOK_URL`, `SLACK_WEBHOOK_URL`, `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID`
-   - et en *variables* (optionnel) : `KEYWORDS_INCLUDE`, `KEYWORDS_EXCLUDE`
-3. Activez les workflows dans l'onglet **Actions**
-4. *(Optionnel)* Activez **GitHub Pages** : **Settings → Pages → Source : Deploy from a branch → `main` / `docs`**. Votre digest sera consultable en permanence sur `https://<compte>.github.io/Cybernews/`, avec archives par date et flux RSS sur `/feed.xml`
+1. **Forkez** ce dépôt sur votre compte GitHub (bouton *Fork* en haut à droite)
+2. Dans **Settings → Secrets and variables → Actions → New repository secret**, ajoutez :
+
+   | Secret | Obligatoire | Exemple / rôle |
+   |---|---|---|
+   | `SENDER_EMAIL` | ✅ | `vous@gmail.com` |
+   | `EMAIL_PASSWORD` | ✅ | mot de passe d'application Gmail |
+   | `RECIPIENT_EMAIL` | ✅ | destinataire du digest |
+   | `SMTP_SERVER` | ✅ | `smtp.gmail.com` |
+   | `SMTP_PORT` | ✅ | `465` |
+   | `ANTHROPIC_API_KEY` | — | active la synthèse IA en français |
+   | `NVD_API_KEY` | — | accélère l'enrichissement CVSS |
+   | `DISCORD_WEBHOOK_URL`, `SLACK_WEBHOOK_URL` | — | diffusion Discord / Slack |
+   | `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` | — | diffusion Telegram |
+
+   Et dans l'onglet **Variables** (optionnel) : `KEYWORDS_INCLUDE`, `KEYWORDS_EXCLUDE`
+3. Onglet **Actions** → cliquez sur **« I understand my workflows, go ahead and enable them »**
+4. Testez immédiatement : **Actions → Digest quotidien CyberNews → Run workflow** (vous pouvez cocher *dry run* pour un premier essai sans email)
+5. *(Optionnel)* Activez **GitHub Pages** : **Settings → Pages → Source : Deploy from a branch → `main` / `docs`**. Votre digest sera consultable en permanence sur `https://<compte>.github.io/Cybernews/`, avec archives par date et flux RSS sur `/feed.xml`
+
+Ensuite, le digest part tout seul chaque matin à 6h UTC. Le workflow committe automatiquement l'historique (`data/state.json`) et les pages (`docs/`) après chaque envoi réussi.
 
 ## 💻 Options de la ligne de commande
 
@@ -128,6 +179,25 @@ pytest tests/ -v
 
 Les fonctions de scoring, déduplication, filtrage, historique et rendu sont couvertes par des tests sans accès réseau (exécutés en CI à chaque push).
 
+## 📁 Structure du projet
+
+```
+Cybernews/
+├── cybersec_rss_feed_enhanced.py   # Script principal (tout le pipeline)
+├── requirements.txt                # Dépendances d'exécution
+├── requirements-dev.txt            # Dépendances de test (pytest)
+├── .env.example                    # Modèle de configuration commenté
+├── tests/test_digest.py            # Suite de tests (sans réseau)
+├── .github/workflows/
+│   ├── daily-digest.yml            # Digest quotidien automatique
+│   ├── ci.yml                      # Tests à chaque push/PR
+│   └── feeds-health.yml            # Santé des sources (hebdomadaire)
+├── data/state.json                 # Historique (généré, committé par le workflow)
+├── docs/                           # GitHub Pages : digest, archives, feed.xml
+├── digest.html                     # Dernier digest généré (local, non versionné)
+└── latest_articles.json            # Données brutes du dernier run (non versionné)
+```
+
 ## 🔧 Dépannage
 
 1. **Erreur SMTP** — `python cybersec_rss_feed_enhanced.py --test-smtp` ; vérifiez le mot de passe d'application et le port (465/587)
@@ -135,6 +205,7 @@ Les fonctions de scoring, déduplication, filtrage, historique et rendu sont cou
 3. **Une source en échec** — les flux indisponibles sont ignorés et listés en fin d'exécution ; le workflow hebdomadaire `feeds-health` vous alerte si une source meurt
 4. **L'enrichissement CVSS est lent** — l'API publique NVD est limitée à 5 requêtes/30 s ; ajoutez une `NVD_API_KEY` gratuite
 5. **Pas de synthèse IA** — vérifiez `ANTHROPIC_API_KEY` et que le paquet `anthropic` est installé
+6. **Le workflow ne committe pas l'historique** — vérifiez **Settings → Actions → General → Workflow permissions → Read and write permissions**
 
 ## 🤝 Contribution
 
