@@ -137,7 +137,6 @@ RSS_FEEDS = [
     {"name": "The Record (Recorded Future)", "url": "https://therecord.media/feed", "category": "Actualités", "weight": 2},
     {"name": "CyberScoop", "url": "https://cyberscoop.com/feed/", "category": "Actualités", "weight": 1},
     {"name": "Help Net Security", "url": "https://www.helpnetsecurity.com/feed/", "category": "Actualités", "weight": 1},
-    {"name": "Ars Technica Security", "url": "https://feeds.arstechnica.com/arstechnica/security", "category": "Actualités", "weight": 1},
     {"name": "Wired Security", "url": "https://www.wired.com/feed/category/security/latest/rss", "category": "Actualités", "weight": 1},
     {"name": "ZDNet Security", "url": "https://www.zdnet.com/topic/security/rss.xml", "category": "Actualités", "weight": 0},
     {"name": "Schneier on Security", "url": "https://www.schneier.com/feed/atom/", "category": "Actualités", "weight": 2},
@@ -163,8 +162,6 @@ RSS_FEEDS = [
     {"name": "Malwarebytes Labs", "url": "https://www.malwarebytes.com/blog/feed/index.xml", "category": "Recherche & éditeurs", "weight": 1},
     {"name": "SentinelOne Labs", "url": "https://www.sentinelone.com/blog/feed/", "category": "Recherche & éditeurs", "weight": 2},
     {"name": "CrowdStrike Blog", "url": "https://www.crowdstrike.com/blog/feed/", "category": "Recherche & éditeurs", "weight": 1},
-    {"name": "Sophos News", "url": "https://news.sophos.com/en-us/feed/", "category": "Recherche & éditeurs", "weight": 1},
-    {"name": "Trend Micro Research", "url": "https://feeds.trendmicro.com/TrendMicroResearch", "category": "Recherche & éditeurs", "weight": 2},
     {"name": "Check Point Research", "url": "https://research.checkpoint.com/feed/", "category": "Recherche & éditeurs", "weight": 2},
     {"name": "Rapid7 Blog", "url": "https://blog.rapid7.com/rss/", "category": "Recherche & éditeurs", "weight": 1},
     {"name": "Tenable Blog", "url": "https://www.tenable.com/blog/feed", "category": "Recherche & éditeurs", "weight": 1},
@@ -188,7 +185,6 @@ RSS_FEEDS = [
     {"name": "Zero Day Initiative", "url": "https://www.zerodayinitiative.com/rss/published/", "category": "Vulnérabilités & exploits", "weight": 2},
     {"name": "Exploit-DB", "url": "https://www.exploit-db.com/rss.xml", "category": "Vulnérabilités & exploits", "weight": 1},
     {"name": "Full Disclosure", "url": "https://seclists.org/rss/fulldisclosure.rss", "category": "Vulnérabilités & exploits", "weight": 1},
-    {"name": "r/netsec (Reddit)", "url": "https://www.reddit.com/r/netsec/.rss", "category": "Vulnérabilités & exploits", "weight": 0},
 
     # --- IA & technologies émergentes ---
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "category": "IA & émergent", "weight": 0},
